@@ -9,6 +9,7 @@ const COLOR = {
 
 export const themeAppartamentos = createTheme({
   palette: {
+    mode: 'light',
     primary: {
       main: COLOR.PRIMARY
     },

@@ -1,5 +1,5 @@
 const PagesLinks = () => {
-  return <></>
+  return <>Links</>
 }
 
 export default PagesLinks
