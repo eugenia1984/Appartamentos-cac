@@ -15,5 +15,15 @@ export const themeAppartamentos = createTheme({
     secondary: {
       main: COLOR.SECONDARY
     }
+  },
+  typography: {
+    h1: {
+      fontSize: '2rem',
+      padding: '1.5rem 0.75rem'
+    },
+    h2: {
+      fontSize: '1.75rem',
+      padding: '1rem 0.50rem'
+    }
   }
 })

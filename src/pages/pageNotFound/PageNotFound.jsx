@@ -1,5 +1,7 @@
+import Headline from "../../components/atom/headline/Headline"
+
 const PageNotFound = () => {
-  return <>Page not found</>
+  return <><Headline title="Ups..." /></>
 }
 
 export default PageNotFound

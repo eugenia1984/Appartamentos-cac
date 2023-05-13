@@ -1,7 +1,7 @@
-import React from 'react'
+import Headline from '../../components/atom/headline/Headline'
 
 const Contact = () => {
-  return <>Contacto</>
+  return <><Headline title="Contactanos" />{' '}</>
 }
 
 export default Contact
