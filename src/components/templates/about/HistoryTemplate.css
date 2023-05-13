@@ -1,0 +1,15 @@
+#history-bg {
+  background-image: url(../../../assets/couple-buying-home-grayscale.png);
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3rem 1.75rem;
+}
+
+@media screen and (min-width: 600px) {
+  #history-bg {
+    height: 270px;
+  }
+}
