@@ -5,7 +5,7 @@ const Copyright = () => {
   const year = new Date().getFullYear()
 
   return (
-    <Box sx={{ width: '100%', maxWidth: 500, padding: '1.5rem 0.75rem' }}>
+    <Box sx={{ width: '100%', maxWidth: 500, margin: '0 auto',padding: '1.5rem 0.75rem' }}>
       <Typography>Copyright &copy; {year} - Todos los derechos reservados</Typography>
     </Box>
   )
