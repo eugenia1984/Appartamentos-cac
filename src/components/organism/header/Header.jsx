@@ -8,27 +8,15 @@ import Menu from '@mui/material/Menu'
 import MenuIcon from '@mui/icons-material/Menu'
 import Container from '@mui/material/Container'
 import Avatar from '@mui/material/Avatar'
-import Button from '@mui/material/Button'
 import Tooltip from '@mui/material/Tooltip'
 import MenuItem from '@mui/material/MenuItem'
 import AdbIcon from '@mui/icons-material/Adb'
 import { Link } from 'react-router-dom'
-import { privateRoutes, publicRoutes } from '../../../models/routes'
+import { privateRoutes } from '../../../models/routes'
+import NavBarLinks from '../../molecule/header/NavBarLinks'
+import NavBarLinkButtons from '../../molecule/header/NavBarLinkButtons'
+import Loginlinks from '../../molecule/header/LoginLinks.jsx'
 
-const pages = [
-  {
-    to: `${publicRoutes.HOME}`,
-    text: 'Propiedades'
-  },
-  {
-    to: `${publicRoutes.ABOUT_US}`,
-    text: 'Quienes somos'
-  },
-  {
-    to: `${publicRoutes.CONTACT}`,
-    text: 'Contacto'
-  }
-]
 const settings = [
   { to: `${privateRoutes.FAVORITES}`, text: 'Favoritos' },
   { to: '/', text: 'Cerrar sesión' }
@@ -58,7 +46,6 @@ const Header = () => {
       <AppBar position="static">
         <Container maxWidth="xl">
           <Toolbar disableGutters>
-            <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
             <Typography
               variant="h6"
               noWrap
@@ -70,7 +57,7 @@ const Header = () => {
                 fontFamily: 'monospace',
                 fontWeight: 700,
                 letterSpacing: '.2rem',
-                color: 'primary',
+                color: '#25d366',
                 textDecoration: 'none'
               }}
             >
@@ -106,16 +93,9 @@ const Header = () => {
                   display: { xs: 'block', md: 'none' }
                 }}
               >
-                {pages.map((page) => (
-                  <MenuItem key={page.text} onClick={handleCloseNavMenu}>
-                    <Typography textAlign="center">
-                      <Link to={page.to}>{page.text}</Link>
-                    </Typography>
-                  </MenuItem>
-                ))}
+                <NavBarLinks handleCloseNavMenu={handleCloseNavMenu} />
               </Menu>
             </Box>
-            <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
             <Typography
               variant="h6"
               noWrap
@@ -128,24 +108,13 @@ const Header = () => {
                 fontFamily: 'monospace',
                 fontWeight: 600,
                 letterSpacing: '.1rem',
-                color: 'secondary',
+                color: '#25d366',
                 textDecoration: 'none'
               }}
             >
               Appartamentos
             </Typography>
-            <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-              {pages.map((page) => (
-                <Button
-                  key={page.to}
-                  onClick={handleCloseNavMenu}
-                  sx={{ my: 2, color: 'white', display: 'block' }}
-                >
-                  <Link to={page.to}>{page.text}</Link>
-                </Button>
-              ))}
-            </Box>
-
+            <NavBarLinkButtons handleCloseNavMenu={handleCloseNavMenu} />
             <Box sx={{ flexGrow: 0 }}>
               <Tooltip title="Open settings">
                 <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
@@ -168,13 +137,7 @@ const Header = () => {
                 open={Boolean(anchorElUser)}
                 onClose={handleCloseUserMenu}
               >
-                {settings.map((setting) => (
-                  <MenuItem key={setting.to} onClick={handleCloseUserMenu}>
-                    <Typography textAlign="center">
-                      <Link to={setting.to}>{setting.text}</Link>
-                    </Typography>
-                  </MenuItem>
-                ))}
+                <Loginlinks handleCloseUserMenu={handleCloseUserMenu} />
               </Menu>
             </Box>
           </Toolbar>
