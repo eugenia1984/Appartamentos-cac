@@ -1,7 +1,7 @@
 import Grid from '@mui/material/Grid'
-import Copyright from '../../molecule/Copyright'
-import PagesLinks from '../../molecule/PagesLinks'
-import SocialMedia from '../../molecule/SocialMedia'
+import Copyright from '../../molecule/footer/Copyright'
+import PagesLinks from '../../molecule/footer/PagesLinks'
+import SocialMedia from '../../molecule/footer/SocialMedia'
 import { publicRoutes } from '../../../models/routes'
 import './Footer.css'
 
