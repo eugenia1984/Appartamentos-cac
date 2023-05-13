@@ -1,9 +1,15 @@
 footer {
   background-image: url(../../../assets/footer-background.png);
   background-color: #cccccc;
-  height: 300px;
+  height: 360px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 3rem 1.75rem;
+}
+
+@media screen and (min-width: 600px) {
+  footer {
+    height: 220px;
+  }
 }

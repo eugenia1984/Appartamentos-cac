@@ -42,7 +42,7 @@ export const themeAppartamentos = createTheme({
   typography: {
     h1: {
       fontSize: '2rem',
-      padding: '1.5rem 0.75rem'
+      padding: '2.5rem 0.75rem'
     },
     h2: {
       fontSize: '1.75rem',
