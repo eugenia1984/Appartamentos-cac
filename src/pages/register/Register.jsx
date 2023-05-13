@@ -1,7 +1,7 @@
-import React from 'react'
+import Headline from '../../components/atom/headline/Headline'
 
 const Register = () => {
-  return <>Registro</>
+  return <><Headline title="Registro" /></>
 }
 
 export default Register

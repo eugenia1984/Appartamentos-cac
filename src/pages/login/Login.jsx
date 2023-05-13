@@ -1,7 +1,7 @@
-import React from 'react'
+import Headline from '../../components/atom/headline/Headline'
 
 const Login = () => {
-  return <>Login</>
+  return <><Headline title="Mi cuenta" /></>
 }
 
 export default Login

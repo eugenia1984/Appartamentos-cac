@@ -1,7 +1,11 @@
-import React from 'react'
+import Headline from '../../components/atom/headline/Headline'
 
 const Search = () => {
-  return <>Búsqueda</>
+  return (
+    <>
+      <Headline title="Propiedades" />{' '}
+    </>
+  )
 }
 
 export default Search
