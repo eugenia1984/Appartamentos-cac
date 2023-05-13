@@ -1,6 +1,6 @@
 import { Box, Typography } from '@mui/material'
 import { TEXT_ABOUT } from './text'
-import './AgentsTemplate'
+import '../agents/AgentsTemplate'
 
 const HistoryTemplate = () => {
   return (

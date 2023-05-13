@@ -1,6 +1,6 @@
 import Headline from '../../components/atom/headline/Headline'
-import AgentsTemplate from '../../components/templates/about/AgentsTemplate'
-import HistoryTemplate from '../../components/templates/about/HistoryTemplate'
+import AgentsTemplate from '../../components/templates/about/agents/AgentsTemplate'
+import HistoryTemplate from '../../components/templates/about/history/HistoryTemplate'
 
 const AboutUs = () => {
   return (
