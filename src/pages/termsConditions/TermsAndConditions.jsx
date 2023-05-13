@@ -1,7 +1,7 @@
-import React from 'react'
+import Headline from "../../components/atom/headline/Headline"
 
 const TermsAndConditions = () => {
-  return <>Terminos y Condiciones</>
+  return <><Headline title="Términos y condiciones" />{' '}</>
 }
 
 export default TermsAndConditions
