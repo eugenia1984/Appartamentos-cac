@@ -2,18 +2,9 @@
 
 ---
 
-## <img src="https://img.icons8.com/bubbles/40/null/crowd--v2.png" alt="grupo de gente, integrantes del equipo" widht="40" height="40"/> Integrantes
+## <img src="https://img.icons8.com/bubbles/40/null/crowd--v2.png" alt="grupo de gente, integrantes del equipo" widht="40" height="40"/> Realizado por:
 
-| Integrante                 | GitHub                                                                                                                | LinkedIn                                                                                                                                |
-| -------------------------- | --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| Arrayaran, Gonzalo          |  [<img src="https://img.icons8.com/ios-glyphs/30/null/github.png"/> GonzaloArray](https://github.com/gonzaloarray)                                                                                                                       |                                                                                                                                         | |
-| Costa, María Eugenia       | [<img src="https://img.icons8.com/ios-glyphs/30/null/github.png"/> eugenia1984](https://github.com/eugenia1984)       | [<img src="https://img.icons8.com/color/30/null/linkedin.png"/> maríaeugeniacosta](https://www.linkedin.com/in/mar%C3%ADaeugeniacosta/) |
-| De Franchi, María Belén    | [<img src="https://img.icons8.com/ios-glyphs/30/null/github.png"/> Belendefranchi](https://github.com/Belendefranchi) | [<img src="https://img.icons8.com/color/30/null/linkedin.png"/> mariabelendefranchi](https://www.linkedin.com/in/mariabelendefranchi/)  |
-| Galmes, Ignacio            | [<img src="https://img.icons8.com/ios-glyphs/30/null/github.png"/> igalmes](https://github.com/igalmes)               |                                                                                                                                         |
-| Gonzalez Roister, Santiago | [<img src="https://img.icons8.com/ios-glyphs/30/null/github.png"/> gogoroisler](https://github.com/gogoroisler/)      |                                                                                                                                         |
-| Molina Numa                | [<img src="https://img.icons8.com/ios-glyphs/30/null/github.png"/> numamolina](https://github.com/numamolina)         |                                                                                                                                         |
-| Vargas Giron, Roque        | [<img src="https://img.icons8.com/ios-glyphs/30/null/github.png"/> roquevargas](https://github.com/roquevargas)       |                                                                                                                                         |
-| Zapata, Claudia            |                                                                                                                       |                                                                                                                                         |
+- Costa, María Eugenia: [<img src="https://img.icons8.com/ios-glyphs/30/null/github.png"/> eugenia1984](https://github.com/eugenia1984) - [<img src="https://img.icons8.com/color/30/null/linkedin.png"/> maríaeugeniacosta](https://www.linkedin.com/in/mar%C3%ADaeugeniacosta/)
 
 ---
 
@@ -45,16 +36,16 @@
 
 ## Links útiles:
 
-| Links                                                                                                                                                                                              |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Presentación](https://www.canva.com/design/DAFfdumXVHI/9U4gLckXgByrahzC3lGcBg/edit?utm_content=DAFfdumXVHI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)                      |
-| [Guía de estilos](https://www.canva.com/design/DAFfd_i0hAo/RtW_R7o89DAxedEbicvNkQ/edit?utm_content=DAFfd_i0hAo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)                   |
-| [Maquetado - Versión Desktop](https://www.canva.com/design/DAFg1oEfI_s/6ZX3UjXDyi8w2t48TH_DDQ/edit?utm_content=DAFg1oEfI_s&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)       |
-| [Maquetado - Versión Tablet/Mobile](https://www.canva.com/design/DAFhKUT_6XE/JSgly0lqzrcc9wqYdZVNCQ/edit?utm_content=DAFhKUT_6XE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) |
-| Prototipado funcional                                                                                                                                                                              |
-| [Tablero de Trello](https://trello.com/b/gq6AqgPc/appartamento)                                                                                                                                    |
-| [Documentación del código](https://github.com/Belendefranchi/appartamentos/blob/main/documentacion/codigo.md) |
-| [Work flow de Git - Branch -  Buenas prácticas de commits - Comandos git](https://github.com/Belendefranchi/appartamentos/blob/main/documentacion/work-flow.md) |
+| Links                             |
+| --------------------------------- |
+| Presentación                      |
+| Guía de estilos                   |
+| Maquetado - Versión Desktop       |
+| Maquetado - Versión Tablet/Mobile |
+| Prototipado Funcional             |
+
+| [Documentación del código](https://github.com/eugenia1984/Appartamentos-cac/blob/main/documentacion/codigo.md) |
+| [Work flow de Git - Branch - Buenas prácticas de commits - Comandos git](https://github.com/eugenia1984/Appartamentos-cac/blob/main/documentacion/work-flow.md) |
 
 ---
 
@@ -127,7 +118,7 @@ Pueden compartir con el resto de los grupos sus inquietudes en los foros o grupo
 
 - Librerías externas vistas como animate.css / sweetalert2 / slick etc.
 
--  paginado del contenido
+- paginado del contenido
 
 - React Router
 
@@ -152,12 +143,11 @@ Es sumamente importante antes de comenzar a codear el hacer un boceto digital o 
 
 ### <img src="https://img.icons8.com/bubbles/40/null/document.png" alt="icono de documentación" widht="40" height="40" /> DOCUMENTACIÓN
 
-Deberán desarrollar la documentación correspondiente en un archivo PDF explicando las cosas usadas para cada sector de la web. 
+Deberán desarrollar la documentación correspondiente en un archivo PDF explicando las cosas usadas para cada sector de la web.
 
 Dejando las capturas de pantalla de las modificaciones y partes agregadas, las funciones usadas, declaraciones de variables y todo lo necesario para armar un detalle del trabajo realizado. Tener en cuenta colocar comentarios bandera que den pie al documento de la elaboración del trabajo y ayuden a comprender la lógica usada para el diseño.
 
 :computer: -> [en este link se puede ver la documentación](https://github.com/Belendefranchi/appartamentos/blob/main/documentacion/codigo.md)
-
 
 ### <img src="https://img.icons8.com/fluency/40/null/test-passed.png" alt="test aprobado con check marks" widht="40" height="40" /> EVALUACIÓN
 
