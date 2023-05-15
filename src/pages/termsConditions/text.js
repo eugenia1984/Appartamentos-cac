@@ -17,6 +17,6 @@ export const TEXT_TERM_CONDITIONS = [
   },
   {
     id: 5,
-    condition: 'No podrán hacer uso del Sitio Web las personas que carezcan de capacidad para contratar bajo las leyes de la República Argentina, y quienes hayan sido suspendidos o dados de baja del sistema por haber incumplido estos TYC y/o por haber incurrido -a criterio del sitio - en conductas o actos dolosos o fraudulentos mediante el uso del Sitio Web o de los Servicios prestados.'
+    condition: 'No podrán hacer uso del Sitio Web las personas que carezcan de capacidad para contratar bajo las leyes de la República Argentina, y quienes hayan sido suspendidos o dados de baja del sistema por haber incumplido estos TYC y/o por haber incurrido -a criterio del sitio- en conductas o actos dolosos o fraudulentos mediante el uso del Sitio Web o de los Servicios prestados.'
   }
 ]
