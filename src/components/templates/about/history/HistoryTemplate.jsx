@@ -33,7 +33,7 @@ const styles = {
     padding: '1rem 2rem 1rem 2rem',
     lineHeight: '1.8',
     color: `${COLOR.WHITE}`,
-    backgroundColor: '#00000090',
+    backgroundColor: '#00000098',
 
   }
 }
