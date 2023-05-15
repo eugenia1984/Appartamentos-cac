@@ -35,7 +35,7 @@ const styles = {
     padding: '2rem 2rem 5rem 2rem'
   },
   list: {
-    maxWidth: '980px',
+    maxWidth: '890px',
     margin: '0 auto'
   }
 }
