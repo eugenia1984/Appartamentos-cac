@@ -1,6 +1,6 @@
 import { createTheme } from '@mui/material'
 
-const COLOR = {
+export const COLOR = {
   PRIMARY: '#25d366',
   SECONDARY: '#ff385c',
   LIGHTER_BACKGROUND: '#fff',
@@ -8,6 +8,7 @@ const COLOR = {
   LIGHT_SHADOW: '#f7f7f9',
   DARK_SHADOW: '#d9d9d9',
   BLACK: 'rgba(0, 0, 0, 0.87)',
+  WHITE: '#fff',
   DARK_GRAY: 'rgba(0, 0, 0, 0.6)',
   LIGHT_GRAY: 'rgba(0, 0, 0, 0.38)'
 }

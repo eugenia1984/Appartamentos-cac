@@ -16,6 +16,7 @@ import { privateRoutes } from '../../../models/routes'
 import NavBarLinks from '../../molecule/header/NavBarLinks'
 import NavBarLinkButtons from '../../molecule/header/NavBarLinkButtons'
 import Loginlinks from '../../molecule/header/LoginLinks.jsx'
+import { COLOR } from '../../../theme/theme'
 
 const settings = [
   { to: `${privateRoutes.FAVORITES}`, text: 'Favoritos' },
@@ -57,11 +58,11 @@ const Header = () => {
                 fontFamily: 'monospace',
                 fontWeight: 700,
                 letterSpacing: '.2rem',
-                color: '#25d366',
+                color: `${COLOR.PRIMARY}`,
                 textDecoration: 'none'
               }}
             >
-              Appartamentos
+              <span style={{ color: `${COLOR.SECONDARY}`}}>App</span>artamentos
             </Typography>
 
             <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -108,17 +109,17 @@ const Header = () => {
                 fontFamily: 'monospace',
                 fontWeight: 600,
                 letterSpacing: '.1rem',
-                color: '#25d366',
+                color: `${COLOR.PRIMARY}`,
                 textDecoration: 'none'
               }}
             >
-              Appartamentos
+              <span style={{color: `${COLOR.SECONDARY}`}}>App</span>artamentos
             </Typography>
             <NavBarLinkButtons handleCloseNavMenu={handleCloseNavMenu} />
             <Box sx={{ flexGrow: 0 }}>
               <Tooltip title="Open settings">
                 <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                  <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
+                  <Avatar alt="avatar icon" src="https://img.icons8.com/ios/50/user-male-circle--v1.png" />
                 </IconButton>
               </Tooltip>
               <Menu
