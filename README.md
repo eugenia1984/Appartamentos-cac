@@ -20,6 +20,11 @@
 
 - <img src="https://img.icons8.com/color/30/null/bootstrap.png" alt="icono de Bootstrap" widht="30" height="30" />**Bootstrap**
 
+- **MUI**(**Material UI**): `@mui/material`, `@mui/icons-material`, `@mui/styles`
+
+- [**Material UI Carousel**](https://www.npmjs.com/package/react-material-ui-carousel), para el carousel en la seccion Nosotros
+
+
 - [**sweet alert 2**](https://sweetalert2.github.io/) para los alertas
 
 - [**html2canvas**](https://html2canvas.hertzen.com/)
