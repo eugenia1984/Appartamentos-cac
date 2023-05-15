@@ -1,15 +1,23 @@
 import { Box, List, ListItem } from '@mui/material'
 import Headline from '../../components/atom/headline/Headline'
 import { TEXT_TERM_CONDITIONS } from './text'
+import { COLOR } from '../../theme/theme'
 
 const TermsAndConditions = () => {
   return (
     <section id="terminos-condiciones">
       <Headline title="Términos y condiciones" />
-      <Box sx={{ width: '100%', maxWidth: '980px', margin: '0 auto',padding: '0rem 2rem 5rem 2rem' }}>
-        <List aria-labelledby="list-of-terms-and-conditions">
+      <Box sx={styles.termsSection}>
+        <List
+          aria-labelledby="list-of-terms-and-conditions"
+          sx={styles.list}
+        >
           {TEXT_TERM_CONDITIONS.map((condition) => {
-            return <ListItem key={condition.id}>{condition.id}- {condition.condition}</ListItem>
+            return (
+              <ListItem key={condition.id}>
+                {condition.id}- {condition.condition}
+              </ListItem>
+            )
           })}
         </List>
       </Box>
@@ -18,3 +26,16 @@ const TermsAndConditions = () => {
 }
 
 export default TermsAndConditions
+
+const styles = {
+  termsSection: {
+    background: `${COLOR.LIGHT_BACKGROUND}`,
+    width: '100%',
+    margin: '0 auto 5rem',
+    padding: '2rem 2rem 5rem 2rem'
+  },
+  list: {
+    maxWidth: '980px',
+    margin: '0 auto'
+  }
+}
