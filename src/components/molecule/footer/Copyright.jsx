@@ -6,7 +6,7 @@ const Copyright = () => {
 
   return (
     <Box sx={{ width: '100%', maxWidth: 500, padding: '1.5rem 0.75rem' }}>
-      <Typography>Copyright &copy; {year} - Todos los derechos reservados</Typography>
+      <Typography color="white">Copyright &copy; {year} - Todos los derechos reservados</Typography>
     </Box>
   )
 }

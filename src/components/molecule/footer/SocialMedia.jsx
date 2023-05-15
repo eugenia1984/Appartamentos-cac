@@ -6,7 +6,7 @@ import { publicRoutes } from '../../../models/routes'
 
 const SocialMedia = () => {
   return (
-    <Typography>
+    <Typography color="white">
       Social Media: <br />
       <Link to={publicRoutes.HOME}>
         <YouTubeIcon width={32} height={32} />
