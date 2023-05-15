@@ -1,15 +1,25 @@
 footer {
-  background-image: url(../../../assets/footer-background.png);
+  background-color: #080808;
+}
+
+.footer-links {
+  background-image: url(../../../assets/footer-background-gray.jpg);
   background-color: #cccccc;
-  height: 360px;
+  height: 380px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 3rem 1.75rem;
 }
 
-@media screen and (min-width: 600px) {
-  footer {
-    height: 220px;
+.footer-links a {
+  color: #fff;
+  font-weight: 900;
+  font-size: 1.25rem;
+}
+
+@media screen and (min-width: 901px) {
+  .footer-links {
+    height: 260px;
   }
 }
