@@ -43,11 +43,13 @@ export const themeAppartamentos = createTheme({
   typography: {
     h1: {
       fontSize: '2rem',
-      padding: '3.5rem 0.75rem 2.5rem'
+      padding: '3.5rem 0.75rem 2.5rem',
+      fontWeight: '800'
     },
     h2: {
       fontSize: '1.75rem',
-      padding: '1rem 0.50rem'
+      padding: '1rem 0.50rem',
+      fontWeight: '600'
     }
   },
   components: {
