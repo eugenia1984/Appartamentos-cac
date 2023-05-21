@@ -15,7 +15,7 @@ export const privateRoutes = {
 
 export const PAGES_LINK_MENU = [
   {
-    to: `${publicRoutes.HOME}`,
+    to: `${publicRoutes.SEARCH}`,
     text: 'Propiedades'
   },
   {
