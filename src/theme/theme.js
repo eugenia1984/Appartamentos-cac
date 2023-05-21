@@ -50,6 +50,11 @@ export const themeAppartamentos = createTheme({
       fontSize: '1.75rem',
       padding: '1rem 0.50rem',
       fontWeight: '600'
+    },
+    h3: {
+      fontSize: '1.25rem',
+      padding: '1rem 0.50rem',
+      fontWeight: '400'
     }
   },
   components: {
