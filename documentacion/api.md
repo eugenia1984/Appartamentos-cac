@@ -1,5 +1,14 @@
 # :star: API de Mercado Libre
 
+
+---
+
+## Autenticación
+
+[Autenticación y autorización](https://developers.mercadolibre.com.ar/es_ar/autenticacion-y-autorizacion/)
+
+---
+
 ## Categorías por Site
 
 El recurso Sites puede ofrecerte la estructura de categorías para un país en particular, en este caso Argentina.
