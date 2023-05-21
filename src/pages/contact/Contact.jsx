@@ -12,7 +12,7 @@ const Contact = () => {
       <section>
         <Headline title="Contactanos" />
       </section>
-      <section className={styles.contactForm}>
+      <section style={styles.contactForm}>
         <Grid container sx={styles.containerForm}>
           <Headline title={text} variant="h3" color="#000" />
           <ContactForm />

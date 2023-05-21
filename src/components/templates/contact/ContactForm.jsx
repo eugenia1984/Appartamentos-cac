@@ -8,6 +8,7 @@ import {
   TextField
 } from '@mui/material'
 import { useState } from 'react'
+import { COLOR } from '../../../theme/theme'
 
 const ContactForm = () => {
   const [firstName, setFirstName] = useState('')
@@ -18,14 +19,14 @@ const ContactForm = () => {
 
   return (
     <>
-      <form>
-        <Box
-          sx={{
-            width: 500,
-            margin: '1rem auto',
-            maxWidth: '100%'
-          }}
-        >
+      <Box
+        sx={{
+          width: 500,
+          margin: '1rem auto',
+          maxWidth: '100%'
+        }}
+      >
+        <form style={styles.contactFormStyles}>
           <FormControl variant="standard" fullWidth>
             <InputLabel htmlFor="first-name">Nombre</InputLabel>
             <Input
@@ -100,13 +101,23 @@ const ContactForm = () => {
             fullWidth
             margin="dense"
           />
-        </Box>
-        <Button variant="contained" size="large" color="secondary">
-          Enviar
-        </Button>
-      </form>
+          <Button variant="contained" size="large" color="secondary">
+            Enviar
+          </Button>
+        </form>
+      </Box>
     </>
   )
 }
 
 export default ContactForm
+
+const styles = {
+  contactFormStyles: {
+    with: '100%',
+    backgroundColor: `${COLOR.LIGHTER_BACKGROUND}`,
+    padding: '1rem 1.5rem 3rem',
+    marginTop: '2rem',
+    borderRadius: '14px'
+  }
+}
