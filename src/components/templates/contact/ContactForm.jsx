@@ -1,21 +1,46 @@
-import {
-  Box,
-  Button,
-  FormControl,
-  FormHelperText,
-  Input,
-  InputLabel,
-  TextField
-} from '@mui/material'
-import { useState } from 'react'
+import { Box, FormControl, Input, InputLabel } from '@mui/material'
+import { useEffect, useState } from 'react'
 import { COLOR } from '../../../theme/theme'
+import { useForm } from 'react-hook-form'
+import { ERROR_MESSAGES, REQUIRED } from '../../../utils/constants'
+import { PATTERNS } from '../../../utils/patterns'
+import './ContactForm.css'
 
 const ContactForm = () => {
-  const [firstName, setFirstName] = useState('')
-  const [lastName, setLastName] = useState('')
-  const [telephone, setTelephone] = useState('')
-  const [email, setEmail] = useState('')
-  const [message, setMessage] = useState('')
+  const {
+    register,
+    watch,
+    formState: { errors },
+    handleSubmit
+  } = useForm()
+
+  const [userInfo, setUserInfo] = useState({
+    firstname: '',
+    lastName: '',
+    email: '',
+    telephone: '',
+    message: ''
+  })
+  const { firstName, lastName, email, telephone, message } = userInfo
+
+  useEffect(() => {
+    const subscription = watch((data) => {
+      console.log('nombre: ', data.firstName)
+      console.log('apellido: ', data.lastName)
+      console.log('correo: ', data.email)
+      console.log('telefono: ', data.telephone)
+      console.log('mensaje: ', data.message)
+    })
+    return () => subscription.unsubscribe()
+  }, [watch])
+
+  const handleChange = (event) => {
+    const { name, value } = event.target
+    setUserInfo({ ...userInfo, [name]: value })
+    console.log('userInfo en handleChange', userInfo)
+  }
+
+  const onSubmit = (userInfo) => console.log('userInfo: ', userInfo)
 
   return (
     <>
@@ -26,84 +51,111 @@ const ContactForm = () => {
           maxWidth: '100%'
         }}
       >
-        <form style={styles.contactFormStyles}>
+        <form
+          style={styles.contactFormStyles}
+          onSubmit={handleSubmit(onSubmit)}
+        >
           <FormControl variant="standard" fullWidth>
-            <InputLabel htmlFor="first-name">Nombre</InputLabel>
+            <InputLabel htmlFor="firstName">Nombre</InputLabel>
             <Input
-              id="first-name"
-              defaultValue={firstName}
+              id="firstName"
+              value={firstName}
               required
-              onChange={(event) => {
-                setFirstName(event.target.value)
-              }}
-              aria-describedby="Ingresa tu nombre"
+              onChange={handleChange}
+              placeholder="Ingresa tu nombre"
+              type="text"
+              name="firstName"
+              {...register('firstName', {
+                required: REQUIRED.fistName,
+                pattern: {
+                  value: PATTERNS.name,
+                  message: ERROR_MESSAGES.fistName
+                }
+              })}
             />
-            <FormHelperText id="first-name-helper-text">
-              Ingresa tu nombre
-            </FormHelperText>
+            {errors.firstName && <p>{errors.firstName.message}</p>}
           </FormControl>
           <FormControl variant="standard" fullWidth>
             <InputLabel htmlFor="last-name">Apellido</InputLabel>
             <Input
               id="last-name"
-              defaultValue={lastName}
+              value={lastName}
               required
-              onChange={(event) => {
-                setLastName(event.target.value)
-              }}
-              aria-describedby="Ingresa tu apellido"
+              onChange={handleChange}
+              placeholder="Ingresa tu apellido"
+              type="text"
+              name="lastName"
+              {...register('lastName', {
+                required: REQUIRED.lastName,
+                pattern: {
+                  value: PATTERNS.name,
+                  message: ERROR_MESSAGES.lastName
+                }
+              })}
             />
-            <FormHelperText id="last-name-helper-text">
-              Ingresa tu apellido
-            </FormHelperText>
+            {errors.lastName && <p>{errors.lastName.message}</p>}
           </FormControl>
           <FormControl variant="standard" fullWidth>
             <InputLabel htmlFor="telephone">Telefono</InputLabel>
             <Input
               id="telephone"
-              defaultValue={telephone}
+              value={telephone}
               required
-              onChange={(event) => {
-                setTelephone(event.target.value)
-              }}
-              aria-describedby="Ingresa tu número de teléfono"
+              onChange={handleChange}
+              placeholder="Ingresa tu número de teléfono"
+              type="number"
+              name="telephone"
+              {...register('telephone', {
+                required: REQUIRED.telephone,
+                pattern: {
+                  value: PATTERNS.telephone,
+                  message: ERROR_MESSAGES.telephone
+                }
+              })}
             />
-            <FormHelperText id="telephone-helper-text">
-              Ingresa tu número de teléfono
-            </FormHelperText>
+            {errors.telephone && <p>{errors.telephone.message}</p>}
           </FormControl>
           <FormControl variant="standard" fullWidth>
             <InputLabel htmlFor="email">Correo electrónico</InputLabel>
             <Input
               id="email"
-              defaultValue={email}
+              value={email}
               required
-              onChange={(event) => {
-                setEmail(event.target.value)
-              }}
-              aria-describedby="Ingresa tu correo electrónico"
+              onChange={handleChange}
+              placeholder="Ingresa tu correo electrónico"
+              type="email"
+              name="email"
+              {...register('email', {
+                required: REQUIRED.email,
+                pattern: {
+                  value: PATTERNS.email,
+                  message: ERROR_MESSAGES.email
+                }
+              })}
             />
-            <FormHelperText id="email-helper-text">
-              Ingresa tu correo electrónico
-            </FormHelperText>
+            {errors.email && <p>{errors.email.message}</p>}
           </FormControl>
-          <TextField
-            required
-            id="massage"
-            label="Mensaje"
-            multiline
-            rows={4}
-            value={message}
-            onChange={(event) => {
-              setMessage(event.target.value)
-            }}
-            variant="standard"
-            fullWidth
-            margin="dense"
-          />
-          <Button variant="contained" size="large" color="secondary">
-            Enviar
-          </Button>
+          <FormControl variant="standard" fullWidth>
+            <InputLabel htmlFor="message">Mensaje</InputLabel>
+            <Input
+              id="message"
+              value={message}
+              required
+              onChange={handleChange}
+              placeholder="Ingresa tu mensaje"
+              type="text"
+              name="message"
+              {...register('message', {
+                required: REQUIRED.message,
+                pattern: {
+                  value: PATTERNS.name,
+                  message: ERROR_MESSAGES.email
+                }
+              })}
+            />
+            {errors.message && <p>{errors.message.message}</p>}
+          </FormControl>
+          <input type="submit" value="Enviar" className="btn-send"/>
         </form>
       </Box>
     </>
