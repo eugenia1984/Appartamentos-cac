@@ -43,12 +43,11 @@
 
 | Links                             |
 | --------------------------------- |
-| Presentación                      |
+| [Presentación](https://www.canva.com/design/DAFizH_pkAs/T9XPdY16De2HCepPFuhASA/edit?utm_content=DAFizH_pkAs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)              |
 | Guía de estilos                   |
-| Maquetado - Versión Desktop       |
-| Maquetado - Versión Tablet/Mobile |
+| [Maquetado - Versión Desktop](https://www.canva.com/design/DAFizGj3NFM/rzvM6c6-IwtqicTBKHUuXA/edit?utm_content=DAFizGj3NFM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)      |
+| [Maquetado - Versión Tablet/Mobile](https://www.canva.com/design/DAFizJiIoO0/c36tsLmt9SLd_nt27Iv9EQ/edit?utm_content=DAFizJiIoO0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)  |
 | Prototipado Funcional             |
-
 | [Documentación del código](https://github.com/eugenia1984/Appartamentos-cac/blob/main/documentacion/codigo.md) |
 | [Work flow de Git - Branch - Buenas prácticas de commits - Comandos git](https://github.com/eugenia1984/Appartamentos-cac/blob/main/documentacion/work-flow.md) |
 
