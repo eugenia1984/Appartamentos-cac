@@ -1,11 +1,10 @@
-import { Grid } from '@mui/material'
 import { SUGGESTED_LIST } from './suggested'
 import SuggestedSearchItem from './SuggestedSearchItem'
+import './SuggestedSearchList.css'
 
 const SuggestedSearchList = () => {
   return (
-    <Grid container>
-      <Grid item xs={12} sm={5}>
+    <section className="search-list-container">
         {SUGGESTED_LIST &&
           SUGGESTED_LIST.map((item) => (
             <SuggestedSearchItem
@@ -14,8 +13,8 @@ const SuggestedSearchList = () => {
               key={item.id}
             />
           ))}
-      </Grid>
-    </Grid>
+    </section>
+    
   )
 }
 

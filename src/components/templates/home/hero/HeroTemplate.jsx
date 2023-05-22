@@ -21,7 +21,7 @@ const styles = {
     width: '100%',
     maxWidth: '500px',
     minHeight: '300px',
-    margin: '0 auto',
+    margin: '1rem auto 2rem',
     backgroundColor: '#fff',
     borderRadius: '12px'
   }

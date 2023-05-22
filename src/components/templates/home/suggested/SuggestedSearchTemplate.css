@@ -1,0 +1,11 @@
+.search-suggested-container {
+  background-color: #f7f7f9;
+  padding: 2rem 0.75rem;
+  margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .search-suggested-container {
+    display:none;
+  }
+}
