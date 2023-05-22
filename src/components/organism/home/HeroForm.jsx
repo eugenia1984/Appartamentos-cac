@@ -22,7 +22,9 @@ const HeroForm = () => {
       <Grid item xs={12} md={5}>
         <Box sx={{ minWidth: 120 }}>
           <FormControl fullWidth>
-            <InputLabel id="demo-simple-select-label">Age</InputLabel>
+            <InputLabel id="demo-simple-select-label">
+              Tipo de vivienda
+            </InputLabel>
             <Select
               labelId="demo-simple-select-label"
               id="demo-simple-select"
@@ -44,7 +46,7 @@ const HeroForm = () => {
         />
       </Grid>
       <Grid item xs={12} md={2}>
-        <Button>Buscar</Button>
+        <Button variant="outlined">Buscar</Button>
       </Grid>
     </>
   )

@@ -22,6 +22,7 @@ const styles = {
     maxWidth: '500px',
     minHeight: '300px',
     margin: '1rem auto 2rem',
+    padding: '18px',
     backgroundColor: '#fff',
     borderRadius: '12px'
   }

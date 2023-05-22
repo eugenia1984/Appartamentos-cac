@@ -1,16 +1,16 @@
-import { Button, Grid } from "@mui/material"
+import { Button, Grid } from '@mui/material'
 
 const HeroButtons = () => {
   return (
     <>
       <Grid item xs={4}>
-        <Button>Venta</Button>
+        <Button variant="outlined">Venta</Button>
       </Grid>
       <Grid item xs={4}>
-        <Button>Alquiler</Button>
+        <Button variant="outlined">Alquiler</Button>
       </Grid>
       <Grid item xs={4}>
-        <Button>Alquiler temporal</Button>
+        <Button variant="outlined">Alquiler temporal</Button>
       </Grid>
     </>
   )
