@@ -10,10 +10,10 @@ const SocialMedia = () => {
     <Typography sx={styles.typography}>
       Seguinos: 
       <Link to={publicRoutes.HOME} style={styles.link}>
-        <YouTubeIcon width={48} height={48} />
+        <YouTubeIcon width={40} height={40} />
       </Link>
       <Link to={publicRoutes.HOME}>
-        <InstagramIcon width={48} height={48} />
+        <InstagramIcon width={40} height={40} />
       </Link>
     </Typography>
   )
