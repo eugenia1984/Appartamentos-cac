@@ -4,7 +4,11 @@
 
 ## <img src="https://img.icons8.com/bubbles/40/null/crowd--v2.png" alt="grupo de gente, integrantes del equipo" widht="40" height="40"/> Realizado por:
 
-- Costa, María Eugenia: [<img src="https://img.icons8.com/ios-glyphs/30/null/github.png"/> eugenia1984](https://github.com/eugenia1984) - [<img src="https://img.icons8.com/color/30/null/linkedin.png"/> maríaeugeniacosta](https://www.linkedin.com/in/mar%C3%ADaeugeniacosta/)
+**Costa, María Eugenia**, me podés contactar: 
+
+- [<img src="https://img.icons8.com/ios-glyphs/30/null/github.png"/> eugenia1984](https://github.com/eugenia1984) 
+
+- [<img src="https://img.icons8.com/color/30/null/linkedin.png"/> maríaeugeniacosta](https://www.linkedin.com/in/mar%C3%ADaeugeniacosta/)
 
 ---
 
