@@ -58,13 +58,232 @@ export const themeAppartamentos = createTheme({
     }
   },
   components: {
+    MuiFormControl: {
+      styleOverrides: {
+        root: {
+          margin: '0.75rem 0rem',
+          padding: '0.25rem 0rem'
+        }
+      }
+    },
     MuiButton: {
       defaultProps: {
-        style: {
-          textTransform: 'none',
-          boxShadow: 'none',
-          borderRadius: '0.5em'
+        disableRipple: true
+      },
+      styleOverrides: {
+        root: {
+          borderRadius: 16,
+          fontStyle: 'normal',
+          fontSize: '16px',
+          padding: '13px 20px'
+        },
+        text: {
+          '&.Mui-focusVisible': {
+            backgroundColor: '#BFBFBF'
+          },
+          ':hover': {
+            backgroundColor: '#BFBFBF'
+          }
+        },
+        outlined: {
+          border: '2px solid',
+          ':hover': {
+            border: '2px solid',
+            background: '#ff385c'
+          },
+          ':focus': {
+            color: 'white',
+            background: '#ff385c'
+          },
+          '&.Mui-disabled': {
+            border: '2px solid #8F9193',
+            color: '#8F9193'
+          }
+        },
+        containedPrimary: {
+          background: '#25d366',
+          ':hover': {
+            backgroundColor:
+              'linear-gradient(270deg, #1226AA 0%, #121A52 103.21%)'
+          },
+          ':focus': {
+            backgroundColor: '#121A52'
+          },
+          '&.Mui-disabled': {
+            background: '#8F9193',
+            color: 'white'
+          }
         }
+      }
+    },
+    MuiTextField: {
+      defaultProps: {
+        variant: 'filled'
+      },
+      styleOverrides: {
+        root: {
+          input: {
+            '&[type=number]': {
+              MozAppearance: 'textfield'
+            },
+            '&::-webkit-outer-spin-button': {
+              WebkitAppearance: 'none',
+              margin: 0
+            },
+            '&::-webkit-inner-spin-button': {
+              WebkitAppearance: 'none',
+              margin: 0
+            }
+          }
+        }
+      }
+    },
+    MuiInput: {
+      styleOverrides: {
+        root: {
+          border: '1px solid #ff385c',
+          borderRadius: '7px',
+          padding: '0.25rem 0.50rem',
+          marginTop: '12px'
+        }
+      }
+    },
+    MuiInputLabel: {
+      defaultProps: {
+        shrink: true
+      },
+      styleOverrides: {
+        root: {
+          color: 'rgba(0, 0, 0, 0.8)',
+          fontWeight: '800',
+          '&.Mui-error': {
+            color: 'black'
+          },
+          '&.Mui-focused': {
+            color: 'black'
+          }
+        }
+      }
+    },
+    MuiFilledInput: {
+      defaultProps: {
+        disableUnderline: true,
+        size: 'small'
+      },
+      styleOverrides: {
+        root: ({ theme }) => ({
+          border: '2px solid #C7C8C8',
+          overflow: 'hidden',
+          backgroundColor: '#FFFFFF',
+          borderRadius: 16,
+          transition: theme.transitions.create([
+            'border-color',
+            'background-color',
+            'box-shadow'
+          ]),
+          ':hover': {
+            backgroundColor: '#FFFFFF'
+          },
+          '&.Mui-error': {
+            borderColor: '#CD1812'
+          }
+        })
+      }
+    },
+    MuiSelect: {
+      defaultProps: {
+        variant: 'filled'
+      }
+    },
+    MuiTableCell: {
+      styleOverrides: {
+        root: {
+          fontFamily: 'Nunito, sans-serif',
+          fontWeight: 600,
+          fontSize: '15px',
+          lineHeight: '21px',
+          color: '#202327',
+          textAlign: 'left',
+          borderBottom: 'none'
+        },
+        head: {
+          color: '#555555',
+          fontSize: '13px',
+          lineHeight: '15px',
+          fontFamily: 'Nunito Sans, sans-serif'
+        }
+      }
+    },
+    MuiTableRow: {
+      styleOverrides: {
+        root: {
+          ':nth-of-type(odd)': {
+            background: 'rgba(231,233,247,0.4)'
+          }
+        },
+        head: {
+          backgroundColor: '#fff !important'
+        }
+      }
+    },
+    MuiSwitch: {
+      styleOverrides: {
+        root: ({ theme }) => ({
+          width: 32,
+          height: 18,
+          padding: 0,
+          display: 'flex',
+          ':active': {
+            '& .MuiSwitch-thumb': {
+              width: 15
+            }
+          },
+          '& .MuiSwitch-switchBase.Mui-checked': {
+            transform: 'translateX(14px) !important'
+          },
+          '& .MuiSwitch-switchBase': {
+            padding: 2,
+            '&.Mui-checked': {
+              transform: 'translateX(12px)',
+              color: '#fff',
+              '& + .MuiSwitch-track': {
+                opacity: 1,
+                backgroundColor: theme.palette.primary.main
+              }
+            }
+          },
+          '& .Mui-focusVisible': {
+            backgroundColor: '#1226AA',
+            color: '#F1F2FA'
+          },
+          '& .Mui-checked.Mui-focusVisible': {
+            backgroundColor: 'black',
+            color: 'white'
+          },
+          '& .MuiSwitch-thumb': {
+            boxShadow: '0 2px 4px 0 rgb(0 35 11 / 20%)',
+            width: 14,
+            height: 14,
+            borderRadius: 6,
+            transition: theme.transitions.create(['width'], {
+              duration: 200
+            })
+          },
+          '& .MuiSwitch-track': {
+            borderRadius: 16 / 2,
+            opacity: 1,
+            backgroundColor:
+              theme.palette.mode === 'dark'
+                ? 'rgba(255,255,255,.35)'
+                : 'rgba(0,0,0,.25)',
+            boxSizing: 'border-box',
+            '.Mui-checked.Mui-checked + &': {
+              // Controls checked color for the track
+              opacity: 0.1,
+              backgroundColor: '#fff'
+            }
+          }
+        })
       }
     }
   }
