@@ -32,14 +32,14 @@
 | "Quintas" | "MLA50547" |
 `
 
-- **Subcategorías - Alquiler, Ventas, etc**: [https://api.mercadolibre.com/categories/MLA1466](https://api.mercadolibre.com/categories/MLA1466) en este ejemplo busco de `MLA1466` casas, cambiando el id puedo ver las opciones para todas las elegidas.
+- **Subcategorías - Venta, Alquiler, Alquiler Temporal**: [https://api.mercadolibre.com/categories/MLA1466](https://api.mercadolibre.com/categories/MLA1466) en este ejemplo busco de `MLA1466` casas, cambiando el id puedo ver las opciones para todas las elegidas.
 
 | tipo inmueble | alquiler | alquiler temporario | venta |
 | ------------- | -------- | ------------------- | ----- |
 | **casas(MLA1466)** | "MLA1467" | "MLA50278" | "MLA1468" |
 | **departamentos(MLA1472)** | "MLA1473" |  "MLA50279" |  "MLA1474" |
-| **PH** | "MLA105181" | "MLA105180" |  "MLA105182" |
-| **quintas** |  "MLA50549" |  "MLA52745" | "MLA50551" |
+| **PH(MLA105179)** | "MLA105181" | "MLA105180" |  "MLA105182" |
+| **quintas(MLA5054)** |  "MLA50549" |  "MLA52745" | "MLA50551" |
 
 - **Búsqueda por categoría/Subcategoria**: [https://api.mercadolibre.com/sites/MLA/search?category=MLA5726](https://api.mercadolibre.com/sites/MLA/search?category=MLA1468), este es un ejemplo de **casas en venta**
 

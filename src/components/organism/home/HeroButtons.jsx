@@ -6,16 +6,21 @@ import {
   Radio,
   RadioGroup
 } from '@mui/material'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { HOME_LABELS } from '../../../utils/constants'
 
-const HeroButtons = () => {
-
-  const [value, setValue] = useState('venta')
+const HeroButtons = ({ housingType }) => {
+  // Dejo seteado por default casas - venta
+  const [option, setOption] = useState('MLA1468')
 
   const handleChange = (event) => {
-    setValue(event.target.value)
+    setOption(event.target.value)
   }
+
+  // TODO: useEffect para ver que se setea la opcion del select. Cuando este ok BORRAR
+  useEffect(() => {
+    console.log('option: ', option, 'housingType: ', housingType)
+  }, [housingType])
 
   return (
     <>
@@ -26,7 +31,7 @@ const HeroButtons = () => {
             row
             aria-labelledby="Seleccione una opcion"
             name="buttons-group"
-            value={value}
+            value={option}
             onChange={handleChange}
           >
             {HOME_LABELS.map((el) => (

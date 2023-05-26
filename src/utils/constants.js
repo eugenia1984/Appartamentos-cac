@@ -21,17 +21,47 @@ export const REQUIRED = {
 // Seleccione una opción
 export const HOME_LABELS = [
   {
+    id: 'MLA1466',
+    type: 'casas',
+    alquiler: 'MLA1467',
+    alquiler_temporario: 'MLA50278',
+    venta: 'MLA1468',
+    options: ['MLA1467', 'MLA50278', 'MLA1468']
+
+  },
+  {
+    id: 'MLA1472',
+    type: 'departamentos',
+    alquiler: 'MLA1473',
+    alquiler_temporario: 'MLA50279',
+    venta: 'MLA1474',
+    options: ['MLA1473', 'MLA50279', 'MLA1474']
+
+  },
+  {
+    id: 'MLA105179',
+    type: 'PH',
+    alquiler: 'MLA105181',
+    alquiler_temporario: 'MLA105180',
+    venta: 'MLA105182',
+    options: ['MLA105181', 'MLA105180','MLA105182']
+
+  },
+  {
+    id: 'MLA5054',
+    type: 'quintas',
+    alquiler: 'MLA50549',
+    alquiler_temporario: 'MLA52745',
+    venta: 'MLA50551',
+    options: ['MLA50549', 'MLA52745', 'MLA50551']
+
+  },
+
+  {
     value: 'venta',
     label: 'Venta'
   },
-  {
-    value: 'alquiler',
-    label: 'Alquiler'
-  },
-  {
-    value: 'alquiler-temporal',
-    label: 'Alquiler Temporal'
-  }
+
 ]
 // tipo de vivienda
 export const HOUSING_TYPES = [
