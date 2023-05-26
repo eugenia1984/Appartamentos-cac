@@ -18,51 +18,6 @@ export const REQUIRED = {
 }
 
 /****** Home - Hero Search ******/
-// Seleccione una opción
-export const HOME_LABELS = [
-  {
-    id: 'MLA1466',
-    type: 'casas',
-    alquiler: 'MLA1467',
-    alquiler_temporario: 'MLA50278',
-    venta: 'MLA1468',
-    options: ['MLA1467', 'MLA50278', 'MLA1468']
-
-  },
-  {
-    id: 'MLA1472',
-    type: 'departamentos',
-    alquiler: 'MLA1473',
-    alquiler_temporario: 'MLA50279',
-    venta: 'MLA1474',
-    options: ['MLA1473', 'MLA50279', 'MLA1474']
-
-  },
-  {
-    id: 'MLA105179',
-    type: 'PH',
-    alquiler: 'MLA105181',
-    alquiler_temporario: 'MLA105180',
-    venta: 'MLA105182',
-    options: ['MLA105181', 'MLA105180','MLA105182']
-
-  },
-  {
-    id: 'MLA5054',
-    type: 'quintas',
-    alquiler: 'MLA50549',
-    alquiler_temporario: 'MLA52745',
-    venta: 'MLA50551',
-    options: ['MLA50549', 'MLA52745', 'MLA50551']
-
-  },
-
-  {
-    value: 'venta',
-    label: 'Venta'
-  },
-
-]
 // tipo de vivienda
 export const HOUSING_TYPES = [
   {
@@ -76,10 +31,65 @@ export const HOUSING_TYPES = [
   {
     id: 'MLA105179',
     name: 'PH'
-  },
-  {
-    id: 'MLA50547',
-    name: 'Quintas'
   }
 ]
-// Ubicación
+
+// Seleccione una opción
+export const HOME_LABELS = [
+  {
+    id: 'MLA1466',
+    type: 'casas',
+    options: [
+      {
+        id: 'MLA1467',
+        type: 'Alquiler'
+      },
+      {
+        id: 'MLA50278',
+        type: 'Alquiler temporario'
+      },
+      {
+        id: 'MLA1468',
+        type: 'Venta'
+      }
+    ]  
+  },
+  {
+    id: 'MLA1472',
+    type: 'departamentos',
+    options: [
+      {
+        id: 'MLA1473',
+        type: 'Alquiler'
+      },
+      {
+        id: 'MLA50279',
+        type: 'Alquiler temporario'
+      },
+      {
+        id: 'MLA1474',
+        type: 'Venta'
+      }
+    ]
+  },
+  {
+    id: 'MLA105179',
+    type: 'PH',
+    options: [
+      {
+        id: 'MLA105181',
+        type: 'Alquiler'
+      },
+      {
+        id: 'MLA105180',
+        type: 'Alquiler temporario'
+      },
+      {
+        id: 'MLA105182',
+        type: 'Venta'
+      }
+    ]
+  }
+]
+
+
