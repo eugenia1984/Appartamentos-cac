@@ -1,46 +1,32 @@
-import { Box, FormControl, Input, InputLabel } from '@mui/material'
-import { useEffect, useState } from 'react'
+import { Box, FormControl, Input, InputLabel, Typography } from '@mui/material'
 import { COLOR } from '../../../theme/theme'
-import { useForm } from 'react-hook-form'
-import { ERROR_MESSAGES, REQUIRED } from '../../../utils/constants'
-import { PATTERNS } from '../../../utils/patterns'
+import { useForm } from '../../../hooks/useForm'
+import { validationsForm } from '../../../helper/validationsForm'
+import { Loader } from '../../atom/loader/Loader'
+import { Message } from '../../atom/message/Message'
 import './ContactForm.css'
+
+const initialForm = {
+  firstname: '',
+  lastName: '',
+  email: '',
+  telephone: '',
+  subject: '',
+  message: ''
+}
 
 const ContactForm = () => {
   const {
-    register,
-    watch,
-    formState: { errors },
+    form,
+    errors,
+    loading,
+    response,
+    handleChange,
+    handleBlur,
     handleSubmit
-  } = useForm()
+  } = useForm(initialForm, validationsForm)
 
-  const [userInfo, setUserInfo] = useState({
-    firstname: '',
-    lastName: '',
-    email: '',
-    telephone: '',
-    message: ''
-  })
-  const { firstName, lastName, email, telephone, message } = userInfo
-
-  useEffect(() => {
-    const subscription = watch((data) => {
-      console.log('nombre: ', data.firstName)
-      console.log('apellido: ', data.lastName)
-      console.log('correo: ', data.email)
-      console.log('telefono: ', data.telephone)
-      console.log('mensaje: ', data.message)
-    })
-    return () => subscription.unsubscribe()
-  }, [watch])
-
-  const handleChange = (event) => {
-    const { name, value } = event.target
-    setUserInfo({ ...userInfo, [name]: value })
-    console.log('userInfo en handleChange', userInfo)
-  }
-
-  const onSubmit = (userInfo) => console.log('userInfo: ', userInfo)
+  const { firstName, lastName, email, telephone, subject, message } = form
 
   return (
     <>
@@ -51,112 +37,114 @@ const ContactForm = () => {
           maxWidth: '100%'
         }}
       >
-        <form
-          style={styles.contactFormStyles}
-          onSubmit={handleSubmit(onSubmit)}
-        >
-          <FormControl variant="standard" fullWidth>
+        <form style={styles.contactFormStyles} onSubmit={handleSubmit}>
+          <FormControl variant="outlined" fullWidth>
             <InputLabel htmlFor="firstName">Nombre</InputLabel>
             <Input
               id="firstName"
-              value={firstName}
-              required
-              onChange={handleChange}
-              placeholder="Ingresa tu nombre"
               type="text"
               name="firstName"
-              {...register('firstName', {
-                required: REQUIRED.fistName,
-                pattern: {
-                  value: PATTERNS.name,
-                  message: ERROR_MESSAGES.fistName
-                }
-              })}
-            />
-            {errors.firstName && <p>{errors.firstName.message}</p>}
-          </FormControl>
-          <FormControl variant="standard" fullWidth>
-            <InputLabel htmlFor="last-name">Apellido</InputLabel>
-            <Input
-              id="last-name"
-              value={lastName}
-              required
+              placeholder="Ingresa tu nombre"
+              onBlur={handleBlur}
               onChange={handleChange}
-              placeholder="Ingresa tu apellido"
+              value={firstName}
+              required
+            />
+            {errors.firstName && (
+              <Typography color="#dc3545">{errors.firstName}</Typography>
+            )}
+          </FormControl>
+          <FormControl variant="outlined" fullWidth>
+            <InputLabel htmlFor="lastName">Apellido</InputLabel>
+            <Input
+              id="lastName"
               type="text"
               name="lastName"
-              {...register('lastName', {
-                required: REQUIRED.lastName,
-                pattern: {
-                  value: PATTERNS.name,
-                  message: ERROR_MESSAGES.lastName
-                }
-              })}
+              placeholder="Ingresa tu apellido"
+              onBlur={handleBlur}
+              onChange={handleChange}
+              value={lastName}
+              required
             />
-            {errors.lastName && <p>{errors.lastName.message}</p>}
+            {errors.lastName && (
+              <Typography color="#dc3545">{errors.lastName}</Typography>
+            )}
           </FormControl>
-          <FormControl variant="standard" fullWidth>
+          <FormControl variant="outlined" fullWidth>
             <InputLabel htmlFor="telephone">Telefono</InputLabel>
             <Input
               id="telephone"
+              type="text"
+              name="telephone"
+              placeholder="Ingresa tu número de teléfono"
+              onBlur={handleBlur}
+              onChange={handleChange}
               value={telephone}
               required
-              onChange={handleChange}
-              placeholder="Ingresa tu número de teléfono"
-              type="number"
-              name="telephone"
-              {...register('telephone', {
-                required: REQUIRED.telephone,
-                pattern: {
-                  value: PATTERNS.telephone,
-                  message: ERROR_MESSAGES.telephone
-                }
-              })}
             />
-            {errors.telephone && <p>{errors.telephone.message}</p>}
+            {errors.telephone && (
+              <Typography color="#dc3545">{errors.telephone}</Typography>
+            )}
           </FormControl>
-          <FormControl variant="standard" fullWidth>
+          <FormControl variant="outlined" fullWidth>
             <InputLabel htmlFor="email">Correo electrónico</InputLabel>
             <Input
               id="email"
-              value={email}
-              required
-              onChange={handleChange}
-              placeholder="Ingresa tu correo electrónico"
-              type="email"
               name="email"
-              {...register('email', {
-                required: REQUIRED.email,
-                pattern: {
-                  value: PATTERNS.email,
-                  message: ERROR_MESSAGES.email
-                }
-              })}
+              placeholder="Ingresa tu correo electrónico"
+              onBlur={handleBlur}
+              onChange={handleChange}
+              value={email}
             />
-            {errors.email && <p>{errors.email.message}</p>}
+            {errors.email && (
+              <Typography color="#dc3545">{errors.email}</Typography>
+            )}
           </FormControl>
-          <FormControl variant="standard" fullWidth>
+          <FormControl variant="outlined" fullWidth>
+            <InputLabel htmlFor="subject">Asunto</InputLabel>
+            <Input
+              multiline
+              id="subject"
+              name="subject"
+              placeholder="Ingresa tu asunto"
+              onBlur={handleBlur}
+              onChange={handleChange}
+              value={subject}
+              required
+            />
+            {errors.subject && (
+              <Typography color="#dc3545">{errors.subject}</Typography>
+            )}
+          </FormControl>
+          <FormControl
+            variant="outlined"
+            fullWidth
+          >
             <InputLabel htmlFor="message">Mensaje</InputLabel>
             <Input
+              multiline 
               id="message"
+              name="message"
+              type="text"
+              placeholder="Ingresa tu mensaje"
+              onBlur={handleBlur}
+              onChange={handleChange}
               value={message}
               required
-              onChange={handleChange}
-              placeholder="Ingresa tu mensaje"
-              type="text"
-              name="message"
-              {...register('message', {
-                required: REQUIRED.message,
-                pattern: {
-                  value: PATTERNS.name,
-                  message: ERROR_MESSAGES.email
-                }
-              })}
             />
-            {errors.message && <p>{errors.message.message}</p>}
+            {errors.message && (
+              <Typography color="#dc3545">{errors.message}</Typography>
+            )}
           </FormControl>
-          <input type="submit" value="Enviar" className="btn-send"/>
+          <input type="submit" value="Enviar" className="btn-send" />
         </form>
+        {loading && <Loader />}
+        {response && (
+          <Message
+            msg="La información se ha enviado correctamente"
+            bgColor="#198754"
+          />
+        )}
       </Box>
     </>
   )
