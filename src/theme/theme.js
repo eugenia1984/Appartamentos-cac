@@ -72,23 +72,25 @@ export const themeAppartamentos = createTheme({
       },
       styleOverrides: {
         root: {
-          borderRadius: 16,
+          borderRadius: '7px',
           fontStyle: 'normal',
           fontSize: '16px',
-          padding: '13px 20px'
+          padding: '8px 16px'
         },
         text: {
           '&.Mui-focusVisible': {
-            backgroundColor: '#BFBFBF'
+            backgroundColor: '#ff385c'
           },
           ':hover': {
             backgroundColor: '#BFBFBF'
           }
         },
         outlined: {
-          border: '2px solid',
+          border: '2px solid #ff385c',
+          color: '#ff385c',
           ':hover': {
-            border: '2px solid',
+            color: '#fff',
+            border: '2px solid #ff385c',
             background: '#ff385c'
           },
           ':focus': {
@@ -101,13 +103,14 @@ export const themeAppartamentos = createTheme({
           }
         },
         containedPrimary: {
-          background: '#25d366',
+          color: '#fff',
+          background: '#ff385c',
           ':hover': {
             backgroundColor:
-              'linear-gradient(270deg, #1226AA 0%, #121A52 103.21%)'
+              '#25d366'
           },
           ':focus': {
-            backgroundColor: '#121A52'
+            backgroundColor: '#cf2d4b'
           },
           '&.Mui-disabled': {
             background: '#8F9193',

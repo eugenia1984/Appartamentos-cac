@@ -1,6 +1,6 @@
 import {  Grid } from '@mui/material'
 import './HeroTemplate.css'
-import HeroButtons from '../../../organism/home/HEroButtons'
+import HeroButtons from '../../../organism/home/HeroButtons'
 import HeroForm from '../../../organism/home/HeroForm'
 
 const HeroTemplate = () => {

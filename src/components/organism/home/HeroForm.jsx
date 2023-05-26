@@ -46,7 +46,7 @@ const HeroForm = () => {
         />
       </Grid>
       <Grid item xs={12} md={2}>
-        <Button variant="outlined">Buscar</Button>
+        <Button variant="contained">Buscar</Button>
       </Grid>
     </>
   )
