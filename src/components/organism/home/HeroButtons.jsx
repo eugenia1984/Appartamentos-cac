@@ -1,16 +1,44 @@
-import { Button, Grid } from '@mui/material'
+import {
+  FormControl,
+  FormControlLabel,
+  FormLabel,
+  Grid,
+  Radio,
+  RadioGroup
+} from '@mui/material'
+import { useState } from 'react'
+import { HOME_LABELS } from '../../../utils/constants'
 
 const HeroButtons = () => {
+
+  const [value, setValue] = useState('venta')
+
+  const handleChange = (event) => {
+    setValue(event.target.value)
+  }
+
   return (
     <>
-      <Grid item xs={4}>
-        <Button variant="outlined">Venta</Button>
-      </Grid>
-      <Grid item xs={4}>
-        <Button variant="outlined">Alquiler</Button>
-      </Grid>
-      <Grid item xs={4}>
-        <Button variant="outlined">Alquiler temporal</Button>
+      <Grid item xs={12}>
+        <FormControl>
+          <FormLabel id="buttons-group">Seleccione una opción:</FormLabel>
+          <RadioGroup
+            row
+            aria-labelledby="Seleccione una opcion"
+            name="buttons-group"
+            value={value}
+            onChange={handleChange}
+          >
+            {HOME_LABELS.map((el) => (
+              <FormControlLabel
+                key={el.value}
+                value={el.value}
+                control={<Radio />}
+                label={el.label}
+              />
+            ))}
+          </RadioGroup>
+        </FormControl>
       </Grid>
     </>
   )

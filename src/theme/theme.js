@@ -196,6 +196,11 @@ export const themeAppartamentos = createTheme({
     MuiSelect: {
       defaultProps: {
         variant: 'filled'
+      },
+      styleOverrides: {
+        root: {
+          margin: '12px 6px'
+        }
       }
     },
     MuiTableCell: {

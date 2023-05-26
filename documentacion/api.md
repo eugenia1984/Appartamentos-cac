@@ -9,7 +9,69 @@
 
 ---
 
-## Categorías por Site
+## :book: Datos que uso en la aplicación
+
+- Para obtener las **categorías de Argentina**: [https://api.mercadolibre.com/sites/MLA/categories/all](https://api.mercadolibre.com/sites/MLA/categories/all)
+
+- **Categoría Principal - Inmueble**: [https://api.mercadolibre.com/sites/MLA/categories](https://api.mercadolibre.com/sites/MLA/categories), para tener la categoría de **Inmuebles**
+
+```JSON
+{
+   "id": "MLA1459",
+   "name": "Inmuebles"
+}
+```
+
+- **árbol de categorías**: [https://api.mercadolibre.com/categories/MLA79242](https://api.mercadolibre.com/categories/MLA79242), principalmente para ver las **subcategorías** y hay más datos que se ven en la URL:
+
+| categoría  | id |
+| ---------- | -- |
+| "Casas" | "MLA1466" |
+|  "Departamentos" | "MLA1472" |
+| "PH" | "MLA105179" |
+| "Quintas" | "MLA50547" |
+`
+
+- **Subcategorías - Alquiler, Ventas, etc**: [https://api.mercadolibre.com/categories/MLA1466](https://api.mercadolibre.com/categories/MLA1466) en este ejemplo busco de `MLA1466` casas, cambiando el id puedo ver las opciones para todas las elegidas.
+
+| tipo inmueble | alquiler | alquiler temporario | venta |
+| ------------- | -------- | ------------------- | ----- |
+| **casas(MLA1466)** | "MLA1467" | "MLA50278" | "MLA1468" |
+| **departamentos(MLA1472)** | "MLA1473" |  "MLA50279" |  "MLA1474" |
+| **PH** | "MLA105181" | "MLA105180" |  "MLA105182" |
+| **quintas** |  "MLA50549" |  "MLA52745" | "MLA50551" |
+
+- **Búsqueda por categoría/Subcategoria**: [https://api.mercadolibre.com/sites/MLA/search?category=MLA5726](https://api.mercadolibre.com/sites/MLA/search?category=MLA1468), este es un ejemplo de **casas en venta**
+
+
+- Para hacer los filtros por **unicación**:
+
+-Para ver los **paises**: [https://api.mercadolibre.com/classified_locations/countries](https://api.mercadolibre.com/classified_locations/countries), en el caso de Argentina:
+
+```JSON
+{
+   "id":"AR",
+   "name":"Argentina",
+   "locale":"es_AR",
+   "currency_id":"ARS"
+}
+```
+
+-Para ver el detalle del pais: `https://api.mercadolibre.com/classified_locations/countries/$COUNTRY_ID`, para ver Argentina: [https://api.mercadolibre.com/classified_locations/countries/AR](https://api.mercadolibre.com/classified_locations/countries/AR).
+
+Dentro de **states** tengo los estados(Provincias)
+
+Para ver la información de los estados(las **provincias**): `https://api.mercadolibre.com/classified_locations/states/$STATE_ID``, ejemplo buscando de Capital Federal: [ttps://api.mercadolibre.com/classified_locations/states/TUxBUENBUGw3M2E1](ttps://api.mercadolibre.com/classified_locations/states/TUxBUENBUGw3M2E1)
+
+Para ver la información de la **ciudad**:  `https://api.mercadolibre.com/classified_locations/cities/$CITY_ID`, ejmplo con Capital Federal: [https://api.mercadolibre.com/classified_locations/cities/TUxBQ0NBUGZlZG1sYQ](https://api.mercadolibre.com/classified_locations/cities/TUxBQ0NBUGZlZG1sYQ), aca tengo los **barrios**
+
+
+Para ver la información por **barrio**: `https://api.mercadolibre.com/classified_locations/neighborhoods/$NEIGHBORHOOD_ID`, ejemplo de Caballito: [ https://api.mercadolibre.com/classified_locations/neighborhoods/TUxBQkNBQjM4MDda]( https://api.mercadolibre.com/classified_locations/neighborhoods/TUxBQkNBQjM4MDda)
+
+----
+---
+
+## :star: Categorías por Site
 
 El recurso Sites puede ofrecerte la estructura de categorías para un país en particular, en este caso Argentina.
 
