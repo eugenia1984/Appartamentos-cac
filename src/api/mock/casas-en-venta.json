@@ -1,0 +1,1969 @@
+{
+  "site_id": "MLA",
+  "country_default_time_zone": "GMT-03:00",
+  "paging": {
+    "total": 198195,
+    "primary_results": 1000,
+    "offset": 0,
+    "limit": 3
+  },
+  "results": [
+    {
+      "id": "MLA1421376748",
+      "title": "Chalet 4 Ambientes Bernal Centro Con Piscina",
+      "condition": "used",
+      "thumbnail_id": "929360-MLA69530266749_052023",
+      "catalog_product_id": null,
+      "listing_type_id": "gold_premium",
+      "permalink": "https://casa.mercadolibre.com.ar/MLA-1421376748-chalet-4-ambientes-bernal-centro-con-piscina-_JM",
+      "buying_mode": "classified",
+      "site_id": "MLA",
+      "category_id": "MLA401685",
+      "domain_id": "MLA-INDIVIDUAL_HOUSES_FOR_SALE",
+      "thumbnail": "http://http2.mlstatic.com/D_929360-MLA69530266749_052023-I.jpg",
+      "currency_id": "USD",
+      "order_backend": 1,
+      "price": 285000,
+      "original_price": null,
+      "sale_price": null,
+      "sold_quantity": 0,
+      "available_quantity": 1,
+      "official_store_id": null,
+      "use_thumbnail_id": true,
+      "accepts_mercadopago": false,
+      "tags": [
+      ],
+      "shipping": {
+        "store_pick_up": false,
+        "free_shipping": false,
+        "logistic_type": "not_specified",
+        "mode": "not_specified",
+        "tags": [
+        ],
+        "promise": null
+      },
+      "stop_time": "2023-11-17T04:00:00.000Z",
+      "seller": {
+        "id": 173284018,
+        "nickname": "NOELIARAFAELAYOUNG",
+        "car_dealer": false,
+        "real_estate_agency": true,
+        "_": false,
+        "registration_date": "2014-12-17T18:12:25.000-04:00",
+        "tags": [
+          "real_estate_agency",
+          "nsm_high",
+          "credits_profile",
+          "messages_as_seller"
+        ],
+        "car_dealer_logo": "",
+        "home_image_url": "https://http2.mlstatic.com/storage/vis-accounts/173284018_home-3e4b6618-9080-4af9-96ac-03a4e46e3f6d.jpg",
+        "permalink": "http://perfil.mercadolibre.com.ar/NOELIARAFAELAYOUNG",
+        "seller_reputation": {
+          "level_id": null,
+          "power_seller_status": null,
+          "transactions": {
+            "canceled": 0,
+            "completed": 0,
+            "period": "historic",
+            "ratings": {
+              "negative": 0,
+              "neutral": 0,
+              "positive": 0
+            },
+            "total": 0
+          },
+          "metrics": {
+            "sales": {
+              "period": "365 days",
+              "completed": 0
+            },
+            "claims": {
+              "period": "365 days",
+              "rate": 0,
+              "value": 0
+            },
+            "delayed_handling_time": {
+              "period": "365 days",
+              "rate": 0,
+              "value": 0
+            },
+            "cancellations": {
+              "period": "365 days",
+              "rate": 0,
+              "value": 0
+            }
+          }
+        }
+      },
+      "seller_address": {
+        "comment": "",
+        "address_line": "",
+        "id": null,
+        "latitude": null,
+        "longitude": null,
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": "TUxBV2lsZGU",
+          "name": "Wilde"
+        }
+      },
+      "address": {
+        "state_id": "TUxBUEdSQXJlMDNm",
+        "state_name": "Bs.As. G.B.A. Sur",
+        "city_id": "TUxBQ1FVSWI1MzY",
+        "city_name": "Quilmes"
+      },
+      "attributes": [
+        {
+          "id": "HAS_AIR_CONDITIONING",
+          "name": "Aire acondicionado",
+          "value_id": "242085",
+          "value_name": "Sí",
+          "attribute_group_id": "COMOYAMEN",
+          "attribute_group_name": "Comodidades y amenities",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "242085",
+              "name": "Sí",
+              "struct": null,
+              "source": 4709975701260268
+            }
+          ],
+          "source": 4709975701260268,
+          "value_type": "boolean"
+        },
+        {
+          "id": "HAS_TELEPHONE_LINE",
+          "name": "Línea telefónica",
+          "value_id": "242084",
+          "value_name": "No",
+          "attribute_group_id": "COMOYAMEN",
+          "attribute_group_name": "Comodidades y amenities",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "242084",
+              "name": "No",
+              "struct": null,
+              "source": 4709975701260268
+            }
+          ],
+          "source": 4709975701260268,
+          "value_type": "boolean"
+        },
+        {
+          "id": "BEDROOMS",
+          "name": "Dormitorios",
+          "value_id": null,
+          "value_name": "3",
+          "attribute_group_id": "FIND",
+          "attribute_group_name": "Ficha técnica",
+          "value_struct": null,
+          "values": [
+            {
+              "id": null,
+              "name": "3",
+              "struct": null,
+              "source": 4709975701260268
+            }
+          ],
+          "source": 4709975701260268,
+          "value_type": "number"
+        },
+        {
+          "id": "COVERED_AREA",
+          "name": "Superficie cubierta",
+          "value_id": null,
+          "value_name": "143 m²",
+          "attribute_group_id": "FIND",
+          "attribute_group_name": "Ficha técnica",
+          "value_struct": {
+            "number": 143,
+            "unit": "m²"
+          },
+          "values": [
+            {
+              "id": null,
+              "name": "143 m²",
+              "struct": {
+                "number": 143,
+                "unit": "m²"
+              },
+              "source": 4709975701260268
+            }
+          ],
+          "source": 4709975701260268,
+          "value_type": "number_unit"
+        },
+        {
+          "id": "FULL_BATHROOMS",
+          "name": "Baños",
+          "value_id": null,
+          "value_name": "2",
+          "attribute_group_id": "FIND",
+          "attribute_group_name": "Ficha técnica",
+          "value_struct": null,
+          "values": [
+            {
+              "id": null,
+              "name": "2",
+              "struct": null,
+              "source": 4709975701260268
+            }
+          ],
+          "source": 4709975701260268,
+          "value_type": "number"
+        },
+        {
+          "id": "ROOMS",
+          "name": "Ambientes",
+          "value_id": null,
+          "value_name": "4",
+          "attribute_group_id": "FIND",
+          "attribute_group_name": "Ficha técnica",
+          "value_struct": null,
+          "values": [
+            {
+              "id": null,
+              "name": "4",
+              "struct": null,
+              "source": 4709975701260268
+            }
+          ],
+          "source": 4709975701260268,
+          "value_type": "number"
+        },
+        {
+          "id": "TOTAL_AREA",
+          "name": "Superficie total",
+          "value_id": null,
+          "value_name": "380 m²",
+          "attribute_group_id": "FIND",
+          "attribute_group_name": "Ficha técnica",
+          "value_struct": {
+            "number": 380,
+            "unit": "m²"
+          },
+          "values": [
+            {
+              "id": null,
+              "name": "380 m²",
+              "struct": {
+                "number": 380,
+                "unit": "m²"
+              },
+              "source": 4709975701260268
+            }
+          ],
+          "source": 4709975701260268,
+          "value_type": "number_unit"
+        },
+        {
+          "id": "OPERATION",
+          "name": "Operación",
+          "value_id": "242075",
+          "value_name": "Venta",
+          "attribute_group_id": "MAIN",
+          "attribute_group_name": "Principales",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "242075",
+              "name": "Venta",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "list"
+        },
+        {
+          "id": "PROPERTY_TYPE",
+          "name": "Inmueble",
+          "value_id": "242060",
+          "value_name": "Casa",
+          "attribute_group_id": "MAIN",
+          "attribute_group_name": "Principales",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "242060",
+              "name": "Casa",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "list"
+        },
+        {
+          "id": "ITEM_CONDITION",
+          "name": "Condición del ítem",
+          "value_id": "2230581",
+          "value_name": "Usado",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "2230581",
+              "name": "Usado",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "list"
+        },
+        {
+          "id": "WITH_VIRTUAL_TOUR",
+          "name": "Con tour virtual",
+          "value_id": "242084",
+          "value_name": "No",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "242084",
+              "name": "No",
+              "struct": null,
+              "source": 942334329061206
+            }
+          ],
+          "source": 942334329061206,
+          "value_type": "boolean"
+        }
+      ],
+      "location": {
+        "address_line": "26 de Julio 73",
+        "zip_code": "",
+        "subneighborhood": null,
+        "neighborhood": {
+          "id": "TUxBQkJFUjg4MDVa",
+          "name": "Bernal"
+        },
+        "city": {
+          "id": "TUxBQ1FVSWI1MzY",
+          "name": "Quilmes"
+        },
+        "state": {
+          "id": "TUxBUEdSQXJlMDNm",
+          "name": "Bs.As. G.B.A. Sur"
+        },
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "latitude": -34.7171935,
+        "longitude": -58.2791686
+      },
+      "seller_contact": {
+        "contact": "YOUNG PROPIEDADES SUC. BERNAL",
+        "other_info": "",
+        "webpage": "",
+        "area_code": "",
+        "phone": "",
+        "area_code2": "",
+        "phone2": "",
+        "email": ""
+      },
+      "installments": null,
+      "winner_item_id": null,
+      "discounts": null,
+      "promotions": [
+      ],
+      "inventory_id": null
+    },
+    {
+      "id": "MLA1422929944",
+      "title": "Casa En Venta En Los Castores, Nordelta",
+      "condition": "new",
+      "thumbnail_id": "721288-MLA69574356796_052023",
+      "catalog_product_id": null,
+      "listing_type_id": "gold_premium",
+      "permalink": "https://casa.mercadolibre.com.ar/MLA-1422929944-casa-en-venta-en-los-castores-nordelta-_JM",
+      "buying_mode": "classified",
+      "site_id": "MLA",
+      "category_id": "MLA401685",
+      "domain_id": "MLA-INDIVIDUAL_HOUSES_FOR_SALE",
+      "thumbnail": "http://http2.mlstatic.com/D_721288-MLA69574356796_052023-I.jpg",
+      "currency_id": "USD",
+      "order_backend": 2,
+      "price": 1980000,
+      "original_price": null,
+      "sale_price": null,
+      "sold_quantity": 0,
+      "available_quantity": 1,
+      "official_store_id": 2762,
+      "official_store_name": "Castex",
+      "use_thumbnail_id": true,
+      "accepts_mercadopago": false,
+      "tags": [
+      ],
+      "shipping": {
+        "store_pick_up": false,
+        "free_shipping": false,
+        "logistic_type": "not_specified",
+        "mode": "not_specified",
+        "tags": [
+        ],
+        "promise": null
+      },
+      "stop_time": "2023-11-20T04:00:00.000Z",
+      "seller": {
+        "id": 532589060,
+        "nickname": "CASTEX_TIGRE",
+        "car_dealer": false,
+        "real_estate_agency": true,
+        "_": false,
+        "registration_date": "2020-03-03T14:01:53.000-04:00",
+        "tags": [
+          "real_estate_agency",
+          "nsm_high",
+          "brand",
+          "messages_as_seller"
+        ],
+        "car_dealer_logo": "",
+        "permalink": "http://perfil.mercadolibre.com.ar/CASTEX_TIGRE",
+        "seller_reputation": {
+          "level_id": null,
+          "power_seller_status": null,
+          "transactions": {
+            "canceled": 0,
+            "completed": 0,
+            "period": "historic",
+            "ratings": {
+              "negative": 0,
+              "neutral": 0,
+              "positive": 0
+            },
+            "total": 0
+          },
+          "metrics": {
+            "sales": {
+              "period": "365 days",
+              "completed": 0
+            },
+            "claims": {
+              "period": "365 days",
+              "rate": 0,
+              "value": 0
+            },
+            "delayed_handling_time": {
+              "period": "365 days",
+              "rate": 0,
+              "value": 0
+            },
+            "cancellations": {
+              "period": "365 days",
+              "rate": 0,
+              "value": 0
+            }
+          }
+        }
+      },
+      "seller_address": {
+        "comment": "",
+        "address_line": "",
+        "id": null,
+        "latitude": null,
+        "longitude": null,
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-C",
+          "name": "Capital Federal"
+        },
+        "city": {
+          "id": "TUxBQlJFVDgyMDVa",
+          "name": "Retiro"
+        }
+      },
+      "address": {
+        "state_id": "TUxBUEdSQWU4ZDkz",
+        "state_name": "Bs.As. G.B.A. Norte",
+        "city_id": "TUxBQ1RJRzk0ZjQw",
+        "city_name": "Tigre"
+      },
+      "attributes": [
+        {
+          "id": "HAS_AIR_CONDITIONING",
+          "name": "Aire acondicionado",
+          "value_id": "242085",
+          "value_name": "Sí",
+          "attribute_group_id": "COMOYAMEN",
+          "attribute_group_name": "Comodidades y amenities",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "242085",
+              "name": "Sí",
+              "struct": null,
+              "source": 4709975701260268
+            }
+          ],
+          "source": 4709975701260268,
+          "value_type": "boolean"
+        },
+        {
+          "id": "HAS_TELEPHONE_LINE",
+          "name": "Línea telefónica",
+          "value_id": "242085",
+          "value_name": "Sí",
+          "attribute_group_id": "COMOYAMEN",
+          "attribute_group_name": "Comodidades y amenities",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "242085",
+              "name": "Sí",
+              "struct": null,
+              "source": 4709975701260268
+            }
+          ],
+          "source": 4709975701260268,
+          "value_type": "boolean"
+        },
+        {
+          "id": "BEDROOMS",
+          "name": "Dormitorios",
+          "value_id": null,
+          "value_name": "6",
+          "attribute_group_id": "FIND",
+          "attribute_group_name": "Ficha técnica",
+          "value_struct": null,
+          "values": [
+            {
+              "id": null,
+              "name": "6",
+              "struct": null,
+              "source": 4709975701260268
+            }
+          ],
+          "source": 4709975701260268,
+          "value_type": "number"
+        },
+        {
+          "id": "COVERED_AREA",
+          "name": "Superficie cubierta",
+          "value_id": null,
+          "value_name": "830 m²",
+          "attribute_group_id": "FIND",
+          "attribute_group_name": "Ficha técnica",
+          "value_struct": {
+            "number": 830,
+            "unit": "m²"
+          },
+          "values": [
+            {
+              "id": null,
+              "name": "830 m²",
+              "struct": {
+                "unit": "m²",
+                "number": 830
+              },
+              "source": 4709975701260268
+            }
+          ],
+          "source": 4709975701260268,
+          "value_type": "number_unit"
+        },
+        {
+          "id": "FULL_BATHROOMS",
+          "name": "Baños",
+          "value_id": null,
+          "value_name": "7",
+          "attribute_group_id": "FIND",
+          "attribute_group_name": "Ficha técnica",
+          "value_struct": null,
+          "values": [
+            {
+              "id": null,
+              "name": "7",
+              "struct": null,
+              "source": 4709975701260268
+            }
+          ],
+          "source": 4709975701260268,
+          "value_type": "number"
+        },
+        {
+          "id": "ROOMS",
+          "name": "Ambientes",
+          "value_id": null,
+          "value_name": "12",
+          "attribute_group_id": "FIND",
+          "attribute_group_name": "Ficha técnica",
+          "value_struct": null,
+          "values": [
+            {
+              "id": null,
+              "name": "12",
+              "struct": null,
+              "source": 4709975701260268
+            }
+          ],
+          "source": 4709975701260268,
+          "value_type": "number"
+        },
+        {
+          "id": "TOTAL_AREA",
+          "name": "Superficie total",
+          "value_id": null,
+          "value_name": "2004 m²",
+          "attribute_group_id": "FIND",
+          "attribute_group_name": "Ficha técnica",
+          "value_struct": {
+            "number": 2004,
+            "unit": "m²"
+          },
+          "values": [
+            {
+              "id": null,
+              "name": "2004 m²",
+              "struct": {
+                "number": 2004,
+                "unit": "m²"
+              },
+              "source": 4709975701260268
+            }
+          ],
+          "source": 4709975701260268,
+          "value_type": "number_unit"
+        },
+        {
+          "id": "OPERATION",
+          "name": "Operación",
+          "value_id": "242075",
+          "value_name": "Venta",
+          "attribute_group_id": "MAIN",
+          "attribute_group_name": "Principales",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "242075",
+              "name": "Venta",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "list"
+        },
+        {
+          "id": "PROPERTY_TYPE",
+          "name": "Inmueble",
+          "value_id": "242060",
+          "value_name": "Casa",
+          "attribute_group_id": "MAIN",
+          "attribute_group_name": "Principales",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "242060",
+              "name": "Casa",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "list"
+        },
+        {
+          "id": "ITEM_CONDITION",
+          "name": "Condición del ítem",
+          "value_id": "2230284",
+          "value_name": "Nuevo",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "2230284",
+              "name": "Nuevo",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "list"
+        },
+        {
+          "id": "WITH_VIRTUAL_TOUR",
+          "name": "Con tour virtual",
+          "value_id": "242084",
+          "value_name": "No",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "242084",
+              "name": "No",
+              "struct": null,
+              "source": 942334329061206
+            }
+          ],
+          "source": 942334329061206,
+          "value_type": "boolean"
+        }
+      ],
+      "location": {
+        "address_line": "Casa en Venta en Los Castores, Nordelta",
+        "zip_code": "",
+        "subneighborhood": null,
+        "neighborhood": {
+          "id": "TUxBQk5PUjE0MTQ4Nw",
+          "name": "Nordelta Los Castores"
+        },
+        "city": {
+          "id": "TUxBQ1RJRzk0ZjQw",
+          "name": "Tigre"
+        },
+        "state": {
+          "id": "TUxBUEdSQWU4ZDkz",
+          "name": "Bs.As. G.B.A. Norte"
+        },
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "latitude": -34.4072791,
+        "longitude": -58.6602101
+      },
+      "seller_contact": {
+        "contact": "Castex Tigre",
+        "other_info": "",
+        "webpage": "",
+        "area_code": "",
+        "phone": "",
+        "area_code2": "",
+        "phone2": "",
+        "email": ""
+      },
+      "installments": null,
+      "winner_item_id": null,
+      "discounts": null,
+      "promotions": [
+      ],
+      "inventory_id": null
+    },
+    {
+      "id": "MLA1370749641",
+      "title": "Venta Casa De Tres Dormitorios - Martinez - San Isidro",
+      "condition": "used",
+      "thumbnail_id": "982982-MLA69553245540_052023",
+      "catalog_product_id": null,
+      "listing_type_id": "gold_premium",
+      "permalink": "https://casa.mercadolibre.com.ar/MLA-1370749641-venta-casa-de-tres-dormitorios-martinez-san-isidro-_JM",
+      "buying_mode": "classified",
+      "site_id": "MLA",
+      "category_id": "MLA401685",
+      "domain_id": "MLA-INDIVIDUAL_HOUSES_FOR_SALE",
+      "thumbnail": "http://http2.mlstatic.com/D_982982-MLA69553245540_052023-I.jpg",
+      "currency_id": "USD",
+      "order_backend": 3,
+      "price": 240000,
+      "original_price": null,
+      "sale_price": null,
+      "sold_quantity": 0,
+      "available_quantity": 1,
+      "official_store_id": null,
+      "use_thumbnail_id": true,
+      "accepts_mercadopago": false,
+      "tags": [
+      ],
+      "shipping": {
+        "store_pick_up": false,
+        "free_shipping": false,
+        "logistic_type": "not_specified",
+        "mode": "not_specified",
+        "tags": [
+        ],
+        "promise": null
+      },
+      "stop_time": "2023-11-20T04:00:00.000Z",
+      "seller": {
+        "id": 532611934,
+        "nickname": "CENTURY21 CANEDO",
+        "car_dealer": false,
+        "real_estate_agency": true,
+        "_": false,
+        "registration_date": "2020-03-03T15:10:52.000-04:00",
+        "tags": [
+          "real_estate_agency",
+          "nsm_high",
+          "messages_as_seller"
+        ],
+        "car_dealer_logo": "",
+        "permalink": "http://perfil.mercadolibre.com.ar/CENTURY21+CANEDO",
+        "seller_reputation": {
+          "level_id": null,
+          "power_seller_status": null,
+          "transactions": {
+            "canceled": 0,
+            "completed": 0,
+            "period": "historic",
+            "ratings": {
+              "negative": 0,
+              "neutral": 0,
+              "positive": 0
+            },
+            "total": 0
+          },
+          "metrics": {
+            "sales": {
+              "period": "365 days",
+              "completed": 0
+            },
+            "claims": {
+              "period": "365 days",
+              "rate": 0,
+              "value": 0
+            },
+            "delayed_handling_time": {
+              "period": "365 days",
+              "rate": 0,
+              "value": 0
+            },
+            "cancellations": {
+              "period": "365 days",
+              "rate": 0,
+              "value": 0
+            }
+          }
+        }
+      },
+      "seller_address": {
+        "comment": "",
+        "address_line": "",
+        "id": null,
+        "latitude": null,
+        "longitude": null,
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "state": {
+          "id": "AR-B",
+          "name": "Buenos Aires"
+        },
+        "city": {
+          "id": null,
+          "name": "Rincón de Milberg"
+        }
+      },
+      "address": {
+        "state_id": "TUxBUEdSQWU4ZDkz",
+        "state_name": "Bs.As. G.B.A. Norte",
+        "city_id": "TUxBQ1NBTjg4ZmJk",
+        "city_name": "San Isidro"
+      },
+      "attributes": [
+        {
+          "id": "HAS_AIR_CONDITIONING",
+          "name": "Aire acondicionado",
+          "value_id": "242084",
+          "value_name": "No",
+          "attribute_group_id": "COMOYAMEN",
+          "attribute_group_name": "Comodidades y amenities",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "242084",
+              "name": "No",
+              "struct": null,
+              "source": 8334164651379012
+            }
+          ],
+          "source": 8334164651379012,
+          "value_type": "boolean"
+        },
+        {
+          "id": "HAS_TELEPHONE_LINE",
+          "name": "Línea telefónica",
+          "value_id": "242085",
+          "value_name": "Sí",
+          "attribute_group_id": "COMOYAMEN",
+          "attribute_group_name": "Comodidades y amenities",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "242085",
+              "name": "Sí",
+              "struct": null,
+              "source": 8334164651379012
+            }
+          ],
+          "source": 8334164651379012,
+          "value_type": "boolean"
+        },
+        {
+          "id": "BEDROOMS",
+          "name": "Dormitorios",
+          "value_id": null,
+          "value_name": "3",
+          "attribute_group_id": "FIND",
+          "attribute_group_name": "Ficha técnica",
+          "value_struct": null,
+          "values": [
+            {
+              "id": null,
+              "name": "3",
+              "struct": null,
+              "source": 8334164651379012
+            }
+          ],
+          "source": 8334164651379012,
+          "value_type": "number"
+        },
+        {
+          "id": "COVERED_AREA",
+          "name": "Superficie cubierta",
+          "value_id": null,
+          "value_name": "139 m²",
+          "attribute_group_id": "FIND",
+          "attribute_group_name": "Ficha técnica",
+          "value_struct": {
+            "number": 139,
+            "unit": "m²"
+          },
+          "values": [
+            {
+              "id": null,
+              "name": "139 m²",
+              "struct": {
+                "number": 139,
+                "unit": "m²"
+              },
+              "source": 8334164651379012
+            }
+          ],
+          "source": 8334164651379012,
+          "value_type": "number_unit"
+        },
+        {
+          "id": "FULL_BATHROOMS",
+          "name": "Baños",
+          "value_id": null,
+          "value_name": "1",
+          "attribute_group_id": "FIND",
+          "attribute_group_name": "Ficha técnica",
+          "value_struct": null,
+          "values": [
+            {
+              "id": null,
+              "name": "1",
+              "struct": null,
+              "source": 8334164651379012
+            }
+          ],
+          "source": 8334164651379012,
+          "value_type": "number"
+        },
+        {
+          "id": "ROOMS",
+          "name": "Ambientes",
+          "value_id": null,
+          "value_name": "0",
+          "attribute_group_id": "FIND",
+          "attribute_group_name": "Ficha técnica",
+          "value_struct": null,
+          "values": [
+            {
+              "id": null,
+              "name": "0",
+              "struct": null,
+              "source": 8334164651379012
+            }
+          ],
+          "source": 8334164651379012,
+          "value_type": "number"
+        },
+        {
+          "id": "TOTAL_AREA",
+          "name": "Superficie total",
+          "value_id": null,
+          "value_name": "231 m²",
+          "attribute_group_id": "FIND",
+          "attribute_group_name": "Ficha técnica",
+          "value_struct": {
+            "number": 231,
+            "unit": "m²"
+          },
+          "values": [
+            {
+              "id": null,
+              "name": "231 m²",
+              "struct": {
+                "number": 231,
+                "unit": "m²"
+              },
+              "source": 8334164651379012
+            }
+          ],
+          "source": 8334164651379012,
+          "value_type": "number_unit"
+        },
+        {
+          "id": "OPERATION",
+          "name": "Operación",
+          "value_id": "242075",
+          "value_name": "Venta",
+          "attribute_group_id": "MAIN",
+          "attribute_group_name": "Principales",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "242075",
+              "name": "Venta",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "list"
+        },
+        {
+          "id": "PROPERTY_TYPE",
+          "name": "Inmueble",
+          "value_id": "242060",
+          "value_name": "Casa",
+          "attribute_group_id": "MAIN",
+          "attribute_group_name": "Principales",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "242060",
+              "name": "Casa",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "list"
+        },
+        {
+          "id": "ITEM_CONDITION",
+          "name": "Condición del ítem",
+          "value_id": "2230581",
+          "value_name": "Usado",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "2230581",
+              "name": "Usado",
+              "struct": null,
+              "source": 1
+            }
+          ],
+          "source": 1,
+          "value_type": "list"
+        },
+        {
+          "id": "WITH_VIRTUAL_TOUR",
+          "name": "Con tour virtual",
+          "value_id": "242084",
+          "value_name": "No",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "242084",
+              "name": "No",
+              "struct": null,
+              "source": 8334164651379012
+            }
+          ],
+          "source": 8334164651379012,
+          "value_type": "boolean"
+        }
+      ],
+      "location": {
+        "address_line": "Saavedra 1883",
+        "zip_code": "",
+        "subneighborhood": null,
+        "neighborhood": {
+          "id": "TUxBQk1BUjExNDJa",
+          "name": "Martínez"
+        },
+        "city": {
+          "id": "TUxBQ1NBTjg4ZmJk",
+          "name": "San Isidro"
+        },
+        "state": {
+          "id": "TUxBUEdSQWU4ZDkz",
+          "name": "Bs.As. G.B.A. Norte"
+        },
+        "country": {
+          "id": "AR",
+          "name": "Argentina"
+        },
+        "latitude": -34.4941711,
+        "longitude": -58.5128733
+      },
+      "seller_contact": {
+        "contact": "Century 21 Canedo",
+        "other_info": "Additional contact info",
+        "webpage": "",
+        "area_code": "",
+        "phone": "",
+        "area_code2": "",
+        "phone2": "",
+        "email": ""
+      },
+      "installments": null,
+      "winner_item_id": null,
+      "discounts": null,
+      "promotions": [
+      ],
+      "inventory_id": null
+    }
+  ],
+  "sort": {
+    "id": "relevance",
+    "name": "Más relevantes"
+  },
+  "available_sorts": [
+    {
+      "id": "price_asc",
+      "name": "Menor precio"
+    },
+    {
+      "id": "price_desc",
+      "name": "Mayor precio"
+    }
+  ],
+  "filters": [
+    {
+      "id": "category",
+      "name": "Categorías",
+      "type": "text",
+      "values": [
+        {
+          "id": "MLA1468",
+          "name": "Venta",
+          "path_from_root": [
+            {
+              "id": "MLA1459",
+              "name": "Inmuebles"
+            },
+            {
+              "id": "MLA1466",
+              "name": "Casas"
+            },
+            {
+              "id": "MLA1468",
+              "name": "Venta"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "available_filters": [
+    {
+      "id": "official_store",
+      "name": "Tiendas oficiales",
+      "type": "text",
+      "values": [
+        {
+          "id": "all",
+          "name": "Todas las tiendas oficiales",
+          "results": 26720
+        },
+        {
+          "id": "3039",
+          "name": "Gustavo Nogueira",
+          "results": 567
+        },
+        {
+          "id": "3280",
+          "name": "Ricordi Negocios Inmobiliarios",
+          "results": 164
+        },
+        {
+          "id": "2762",
+          "name": "Castex",
+          "results": 283
+        },
+        {
+          "id": "2969",
+          "name": "Turdo Estudio Inmobiliario",
+          "results": 3
+        },
+        {
+          "id": "2973",
+          "name": "Tormes Propiedades",
+          "results": 3
+        },
+        {
+          "id": "2853",
+          "name": "Deborah Sosa",
+          "results": 202
+        },
+        {
+          "id": "3203",
+          "name": "SABRINA PELUSO INMOBILIARIA",
+          "results": 2
+        },
+        {
+          "id": "3238",
+          "name": "Lambo Propiedades",
+          "results": 2
+        },
+        {
+          "id": "3031",
+          "name": "Susana Aravena Propiedades",
+          "results": 1001
+        },
+        {
+          "id": "2877",
+          "name": "Blanco Propiedades",
+          "results": 921
+        },
+        {
+          "id": "2743",
+          "name": "Sistema Coldwell Banker",
+          "results": 841
+        },
+        {
+          "id": "2508",
+          "name": "Berraz",
+          "results": 721
+        },
+        {
+          "id": "50886",
+          "name": "Aracama",
+          "results": 441
+        },
+        {
+          "id": "2897",
+          "name": "Corredor Los Lagos",
+          "results": 321
+        },
+        {
+          "id": "2310",
+          "name": "Salaya Romera",
+          "results": 201
+        },
+        {
+          "id": "3278",
+          "name": "Lareu Propiedades",
+          "results": 201
+        },
+        {
+          "id": "2747",
+          "name": "Veronica Espinosa Propiedades",
+          "results": 121
+        },
+        {
+          "id": "2064",
+          "name": "Fera Propiedades",
+          "results": 81
+        },
+        {
+          "id": "3035",
+          "name": "DUIT Propiedades",
+          "results": 81
+        },
+        {
+          "id": "3276",
+          "name": "Mallmann Propiedades",
+          "results": 81
+        },
+        {
+          "id": "2966",
+          "name": "GIMENEZ GROUP",
+          "results": 1
+        },
+        {
+          "id": "3127",
+          "name": "ORBITA INMOBILIARIA",
+          "results": 1
+        }
+      ]
+    },
+    {
+      "id": "price",
+      "name": "Precio",
+      "type": "range",
+      "values": [
+        {
+          "id": "*-3.0E7",
+          "name": "Hasta $ 30.000.000",
+          "results": 65535
+        },
+        {
+          "id": "3.0E7-5.5E7",
+          "name": "$30.000.000 a $55.000.000",
+          "results": 59504
+        },
+        {
+          "id": "5.5E7-*",
+          "name": "Más de $55.000.000",
+          "results": 73141
+        }
+      ]
+    },
+    {
+      "id": "power_seller",
+      "name": "Filtro por calidad de vendedores",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "yes",
+          "name": "Mejores vendedores",
+          "results": 80
+        }
+      ]
+    },
+    {
+      "id": "since",
+      "name": "Filtro por fecha de comienzo",
+      "type": "text",
+      "values": [
+        {
+          "id": "today",
+          "name": "Publicados hoy",
+          "results": 248
+        }
+      ]
+    },
+    {
+      "id": "until",
+      "name": "Filtro por fecha de finalización",
+      "type": "text",
+      "values": [
+        {
+          "id": "today",
+          "name": "Finalizan hoy",
+          "results": 200
+        }
+      ]
+    },
+    {
+      "id": "has_video",
+      "name": "Filtro por publicaciones con video",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "yes",
+          "name": "Publicaciones con video",
+          "results": 23648
+        }
+      ]
+    },
+    {
+      "id": "has_pictures",
+      "name": "Filtro por publicaciones con imágenes",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "yes",
+          "name": "Con fotos",
+          "results": 197460
+        }
+      ]
+    },
+    {
+      "id": "seller_type",
+      "name": "Publica",
+      "type": "text",
+      "values": [
+        {
+          "id": "real_estate_agency",
+          "name": "Inmobiliaria",
+          "results": 192378
+        },
+        {
+          "id": "private_seller",
+          "name": "Dueño directo",
+          "results": 5802
+        }
+      ]
+    },
+    {
+      "id": "BEDROOMS",
+      "name": "Dormitorios",
+      "type": "range",
+      "values": [
+        {
+          "id": "[0-0]",
+          "name": "Monoambiente",
+          "results": 3510
+        },
+        {
+          "id": "[1-1]",
+          "name": "1 dormitorio",
+          "results": 6786
+        },
+        {
+          "id": "[2-2]",
+          "name": "2 dormitorios",
+          "results": 52611
+        },
+        {
+          "id": "[3-3]",
+          "name": "3 dormitorios",
+          "results": 80028
+        },
+        {
+          "id": "[4-*)",
+          "name": "4 dormitorios o más",
+          "results": 54444
+        }
+      ]
+    },
+    {
+      "id": "COVERED_AREA",
+      "name": "Superficie cubierta",
+      "type": "range",
+      "values": [
+        {
+          "id": "(*-100m²]",
+          "name": "100 m² cubiertos o menos",
+          "results": 50349
+        },
+        {
+          "id": "[100m²-150m²]",
+          "name": "100 a 150 m² cubiertos",
+          "results": 53508
+        },
+        {
+          "id": "[150m²-250m²]",
+          "name": "150 a 250 m² cubiertos",
+          "results": 70473
+        },
+        {
+          "id": "[250m²-*)",
+          "name": "250 m² cubiertos o más",
+          "results": 41028
+        }
+      ]
+    },
+    {
+      "id": "FULL_BATHROOMS",
+      "name": "Baños",
+      "type": "range",
+      "values": [
+        {
+          "id": "[1-1]",
+          "name": "1 baño",
+          "results": 52338
+        },
+        {
+          "id": "[2-2]",
+          "name": "2 baños",
+          "results": 69225
+        },
+        {
+          "id": "[3-3]",
+          "name": "3 baños",
+          "results": 42822
+        },
+        {
+          "id": "[4-4]",
+          "name": "4 baños",
+          "results": 18252
+        },
+        {
+          "id": "[5-*)",
+          "name": "5 baños o más",
+          "results": 7878
+        }
+      ]
+    },
+    {
+      "id": "HAS_AIR_CONDITIONING",
+      "name": "Otras características",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "242085",
+          "name": "Con aire acondicionado",
+          "results": 37908
+        }
+      ]
+    },
+    {
+      "id": "HAS_ALARM",
+      "name": "Otras características",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "242085",
+          "name": "Con alarma",
+          "results": 15951
+        }
+      ]
+    },
+    {
+      "id": "HAS_GARDEN",
+      "name": "Otras características",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "242085",
+          "name": "Con jardín",
+          "results": 86541
+        }
+      ]
+    },
+    {
+      "id": "HAS_GRILL",
+      "name": "Otras características",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "242085",
+          "name": "Con parrilla",
+          "results": 59085
+        }
+      ]
+    },
+    {
+      "id": "HAS_GYM",
+      "name": "Otras características",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "242085",
+          "name": "Con gimnasio",
+          "results": 7215
+        }
+      ]
+    },
+    {
+      "id": "HAS_HALF_BATH",
+      "name": "Otras características",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "242085",
+          "name": "Con toilette",
+          "results": 55848
+        }
+      ]
+    },
+    {
+      "id": "HAS_SWIMMING_POOL",
+      "name": "Otras características",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "242085",
+          "name": "Con pileta",
+          "results": 49101
+        }
+      ]
+    },
+    {
+      "id": "ITEM_CONDITION",
+      "name": "Condición",
+      "type": "STRING",
+      "values": [
+        {
+          "id": "2230581",
+          "name": "Usado",
+          "results": 130923
+        },
+        {
+          "id": "2230284",
+          "name": "Nuevo",
+          "results": 47151
+        }
+      ]
+    },
+    {
+      "id": "state",
+      "name": "Ubicación",
+      "type": "text",
+      "values": [
+        {
+          "id": "TUxBUEdSQWU4ZDkz",
+          "name": "Bs.As. G.B.A. Norte",
+          "results": 50648
+        },
+        {
+          "id": "TUxBUEdSQXJlMDNm",
+          "name": "Bs.As. G.B.A. Sur",
+          "results": 32890
+        },
+        {
+          "id": "TUxBUEdSQWVmNTVm",
+          "name": "Bs.As. G.B.A. Oeste",
+          "results": 32646
+        },
+        {
+          "id": "TUxBUENPU2ExMmFkMw",
+          "name": "Bs.As. Costa Atlántica",
+          "results": 18701
+        },
+        {
+          "id": "TUxBUENPUmFkZGIw",
+          "name": "Córdoba",
+          "results": 16326
+        },
+        {
+          "id": "TUxBUFpPTmFpbnRl",
+          "name": "Buenos Aires Interior",
+          "results": 14641
+        },
+        {
+          "id": "TUxBUFNBTmU5Nzk2",
+          "name": "Santa Fe",
+          "results": 9681
+        },
+        {
+          "id": "TUxBUFVSVXllZDVl",
+          "name": "Uruguay",
+          "results": 6402
+        },
+        {
+          "id": "TUxBUENBUGw3M2E1",
+          "name": "Capital Federal",
+          "results": 6084
+        },
+        {
+          "id": "TUxBUE5FVW4xMzMzNQ",
+          "name": "Neuquén",
+          "results": 1600
+        },
+        {
+          "id": "TUxBUFNBTnM0ZTcz",
+          "name": "San Luis",
+          "results": 1241
+        },
+        {
+          "id": "TUxBUEVOVHMzNTdm",
+          "name": "Entre Ríos",
+          "results": 1200
+        },
+        {
+          "id": "TUxBUFRVQ244NmM3",
+          "name": "Tucumán",
+          "results": 1160
+        },
+        {
+          "id": "TUxBUFLNT29iZmZm",
+          "name": "Río Negro",
+          "results": 1080
+        },
+        {
+          "id": "TUxBUE1FTmE5OWQ4",
+          "name": "Mendoza",
+          "results": 800
+        },
+        {
+          "id": "TUxBUENIVXQxNDM1MQ",
+          "name": "Chubut",
+          "results": 800
+        },
+        {
+          "id": "TUxBUFNBTGFjMTJi",
+          "name": "Salta",
+          "results": 640
+        },
+        {
+          "id": "TUxBUE1JU3MzNjIx",
+          "name": "Misiones",
+          "results": 280
+        },
+        {
+          "id": "TUxBUENIQW8xMTNhOA",
+          "name": "Chaco",
+          "results": 160
+        },
+        {
+          "id": "TUxBUEpVSnk3YmUz",
+          "name": "Jujuy",
+          "results": 160
+        },
+        {
+          "id": "TUxBUENPUnM5MjI0",
+          "name": "Corrientes",
+          "results": 120
+        },
+        {
+          "id": "TUxBUFNBTm5lYjU4",
+          "name": "San Juan",
+          "results": 80
+        },
+        {
+          "id": "TUxBUFNBTno3ZmY5",
+          "name": "Santa Cruz",
+          "results": 80
+        },
+        {
+          "id": "TUxBUExBWmE1OWMy",
+          "name": "La Pampa",
+          "results": 40
+        },
+        {
+          "id": "TUxBUExBWmEyNzY0",
+          "name": "La Rioja",
+          "results": 40
+        },
+        {
+          "id": "TUxBUFNBTm9lOTlk",
+          "name": "Santiago del Estero",
+          "results": 40
+        },
+        {
+          "id": "TUxBUFRJRVoxM2M5YQ",
+          "name": "Tierra del Fuego",
+          "results": 40
+        }
+      ]
+    },
+    {
+      "id": "MAINTENANCE_FEE",
+      "name": "Expensas",
+      "type": "range",
+      "values": [
+        {
+          "id": "(*-3000ARS)",
+          "name": "3.000 ARS o menos",
+          "results": 91377
+        },
+        {
+          "id": "[3000ARS-10000ARS]",
+          "name": "3.000 a 10.000 ARS",
+          "results": 1638
+        },
+        {
+          "id": "[10000ARS-*)",
+          "name": "10.000 ARS o más",
+          "results": 18642
+        }
+      ]
+    },
+    {
+      "id": "OPERATION",
+      "name": "Operación",
+      "type": "STRING",
+      "values": [
+        {
+          "id": "242075",
+          "name": "Venta",
+          "results": 197028
+        }
+      ]
+    },
+    {
+      "id": "OPERATION_SUBTYPE",
+      "name": "Modalidad",
+      "type": "STRING",
+      "values": [
+        {
+          "id": "244562",
+          "name": "Propiedades individuales",
+          "results": 196755
+        },
+        {
+          "id": "245034",
+          "name": "Emprendimientos",
+          "results": 273
+        }
+      ]
+    },
+    {
+      "id": "PARKING_LOTS",
+      "name": "Cocheras",
+      "type": "range",
+      "values": [
+        {
+          "id": "[0-0]",
+          "name": "No tiene cocheras",
+          "results": 52884
+        },
+        {
+          "id": "[1-1]",
+          "name": "1 cochera",
+          "results": 78273
+        },
+        {
+          "id": "[2-2]",
+          "name": "2 cocheras",
+          "results": 48048
+        },
+        {
+          "id": "[3-3]",
+          "name": "3 cocheras",
+          "results": 10218
+        },
+        {
+          "id": "[4-*)",
+          "name": "4 cocheras o más",
+          "results": 7761
+        }
+      ]
+    },
+    {
+      "id": "PROFESSIONAL_USE_ALLOWED",
+      "name": "Otras características",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "242085",
+          "name": "Apto profesional",
+          "results": 6591
+        }
+      ]
+    },
+    {
+      "id": "PROPERTY_AGE",
+      "name": "Antigüedad",
+      "type": "range",
+      "values": [
+        {
+          "id": "[0años-0años]",
+          "name": "A estrenar",
+          "results": 41652
+        },
+        {
+          "id": "[1años-10años]",
+          "name": "1 a 10 años",
+          "results": 34359
+        },
+        {
+          "id": "[10años-25años]",
+          "name": "10 a 25 años",
+          "results": 34671
+        },
+        {
+          "id": "[25años-50años]",
+          "name": "25 a 50 años",
+          "results": 28158
+        },
+        {
+          "id": "[50años-*)",
+          "name": "50 años o más",
+          "results": 9204
+        }
+      ]
+    },
+    {
+      "id": "PROPERTY_TYPE",
+      "name": "Inmueble",
+      "type": "STRING",
+      "values": [
+        {
+          "id": "242060",
+          "name": "Casas",
+          "results": 197028
+        }
+      ]
+    },
+    {
+      "id": "ROOMS",
+      "name": "Ambientes",
+      "type": "range",
+      "values": [
+        {
+          "id": "[1-1]",
+          "name": "1 ambiente",
+          "results": 1014
+        },
+        {
+          "id": "[2-2]",
+          "name": "2 ambientes",
+          "results": 4641
+        },
+        {
+          "id": "[3-3]",
+          "name": "3 ambientes",
+          "results": 35763
+        },
+        {
+          "id": "[4-*)",
+          "name": "4 ambientes o más",
+          "results": 124371
+        }
+      ]
+    },
+    {
+      "id": "SUITABLE_FOR_MORTGAGE_LOAN",
+      "name": "Apto crédito",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "242085",
+          "name": "Es apto crédito",
+          "results": 29367
+        }
+      ]
+    },
+    {
+      "id": "TOTAL_AREA",
+      "name": "Superficie total",
+      "type": "range",
+      "values": [
+        {
+          "id": "(*-200m²]",
+          "name": "200 m² totales o menos",
+          "results": 60918
+        },
+        {
+          "id": "[200m²-300m²]",
+          "name": "200 a 300 m² totales",
+          "results": 47658
+        },
+        {
+          "id": "[300m²-500m²]",
+          "name": "300 a 500 m² totales",
+          "results": 45825
+        },
+        {
+          "id": "[500m²-*)",
+          "name": "500 m² totales o más",
+          "results": 56784
+        }
+      ]
+    },
+    {
+      "id": "WITH_VIRTUAL_TOUR",
+      "name": "Multimedia",
+      "type": "boolean",
+      "values": [
+        {
+          "id": "242085",
+          "name": "Con tour virtual",
+          "results": 1482
+        }
+      ]
+    }
+  ],
+  "currency": {
+    "id": "ARS",
+    "symbol": "$"
+  },
+  "available_currencies": {
+    "currencies": [
+      {
+        "id": "USD",
+        "symbol": "U$S"
+      }
+    ],
+    "conversions": {
+      "ars_usd": 0.00424178,
+      "usd_ars": 235.75
+    }
+  }
+}

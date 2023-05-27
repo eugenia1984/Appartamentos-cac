@@ -1,13 +1,11 @@
 import {  Grid } from '@mui/material'
 import './HeroTemplate.css'
-import HeroButtons from '../../../organism/home/HeroButtons'
 import HeroForm from '../../../organism/home/HeroForm'
 
 const HeroTemplate = () => {
   return (
     <div className="hero">
       <Grid container sx={styles.container}>
-        <HeroButtons />
         <HeroForm />
       </Grid>
     </div>
