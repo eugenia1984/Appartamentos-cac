@@ -41,10 +41,10 @@
 | **PH(MLA105179)** | "MLA105181" | "MLA105180" |  "MLA105182" |
 | **quintas(MLA5054)** |  "MLA50549" |  "MLA52745" | "MLA50551" |
 
-- **Búsqueda por categoría/Subcategoria**: [https://api.mercadolibre.com/sites/MLA/search?category=MLA5726](https://api.mercadolibre.com/sites/MLA/search?category=MLA1468), este es un ejemplo de **casas en venta**
+- **Búsqueda por categoría/Subcategoria**: [https://api.mercadolibre.com/sites/MLA/search?category=MLA5726](https://api.mercadolibre.com/sites/MLA/search?category=MLA1468), este es un ejemplo de **casas en venta** y si quiero solo ver 5 casas uso '&limit=5': [https://api.mercadolibre.com/sites/MLA/search?category=MLA5726&limit=5](https://api.mercadolibre.com/sites/MLA/search?category=MLA5726&limit=5)
 
 
-- Para hacer los filtros por **unicación**:
+- Para hacer los filtros por **ubicación**:
 
 -Para ver los **paises**: [https://api.mercadolibre.com/classified_locations/countries](https://api.mercadolibre.com/classified_locations/countries), en el caso de Argentina:
 
